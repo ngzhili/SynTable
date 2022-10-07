@@ -11,9 +11,10 @@ import numpy as np
 
 import carb
 
-from output import DataWriter, DisparityConverter, Logger
+from output import DisparityConverter, Logger
 from sampling import Sampler
 from omni.isaac.core.utils import prims
+from output.writer1 import DataWriter
 
 class OutputManager:
     """ For managing Composer outputs, including sending data to the data writer. """

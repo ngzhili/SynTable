@@ -231,9 +231,11 @@ class Object(Asset):
             print(attribute, '=', value)
 
     def off_physics_prim(self):
+        """ Turn Object Physics """
         self.physics = False
 
     def off_prim(self):
+        """ Turn Object Visibility off """
         from omni.isaac.core.utils import prims
         prims.set_prim_visibility(self.prim, False)
 
@@ -241,6 +243,7 @@ class Object(Asset):
         #print("\n")
     
     def on_prim(self):
+        """ Turn Object Visibility on """
         from omni.isaac.core.utils import prims
         prims.set_prim_visibility(self.prim, True)
 

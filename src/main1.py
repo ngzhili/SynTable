@@ -25,7 +25,7 @@ from output import Metrics, Logger
 from output.output1 import OutputManager
 from sampling import Sampler
 from scene.scene1 import SceneManager
-
+from helper_functions import compute_occluded_masks
 
 class Composer:
     def __init__(self, params, index, output_dir):
@@ -58,7 +58,7 @@ class Composer:
         from omni.isaac.core import SimulationContext
 
         self.scene_units_in_meters = self.sample("scene_units_in_meters")
-        self.sim_context = SimulationContext(physics_dt=0.5, #1.0 / 60.0, 
+        self.sim_context = SimulationContext(physics_dt=1, #1.0 / 60.0, 
                                             stage_units_in_meters=self.scene_units_in_meters)
         # need to initialize physics getting any articulation..etc
         self.sim_context.initialize_physics()
@@ -91,8 +91,8 @@ class Composer:
         self.scene_manager.populate_scene()
         
         # zhili added
-        amodal1 = True
-        amodal = False
+        amodal = True
+        amodal_old = False
         #self.scene_manager.print_instance_attributes()
 
         if self.sequential:
@@ -107,18 +107,16 @@ class Composer:
                     Logger.print("stepping through scene...")
         
         # zhili added, iteratively hide objects
-        elif amodal1:
+        elif amodal:
             self.scene_manager.update_scene()
             
             # get entire scene
             groundtruth = \
                 self.output_manager.capture_amodal_groundtruth(self.index, 
                                                                self.scene_manager) 
+            # data writer in queue
 
-
-
-
-        elif amodal:
+        elif amodal_old:
             self.scene_manager.update_scene()
 
             # print(len(self.scene_manager.objs))
@@ -341,3 +339,51 @@ if __name__ == "__main__":
 
     # Output performance metrics
     metrics.output_performance_metrics()
+
+    # generate occlusion masks
+    print("[INFO] Generating occlusion masks...")
+    rgb_dir = f"{output_dir}/data/mono/rgb"
+    rgb_occ_dir = f"{output_dir}/data/mono/rgb_occ_dir"
+    semantic_dir = f"{output_dir}/data/mono/semantic"
+    occlusion_dir = f"{output_dir}/data/mono/occlusion"
+    occlusion_vis_dir = f"{occlusion_dir}/visualize"
+
+    for dir in [rgb_occ_dir,occlusion_dir,occlusion_vis_dir]:
+        if not os.path.exists(dir):
+            os.makedirs(dir)
+
+    import glob
+    import cv2
+    import numpy as np
+
+    for scene_index in range(params["num_scenes"]):
+        rgb_img = cv2.imread(f"{rgb_dir}/{scene_index}.png", cv2.IMREAD_UNCHANGED)
+        occ_index = 1
+        img_list = glob.glob(f"{semantic_dir}/{scene_index}*.png")
+        if len(img_list) > 0:
+            for i in range(len(img_list)):
+                path1 = img_list[i]
+                mask1 = cv2.imread(path1, cv2.IMREAD_UNCHANGED)
+                for j in range(len(img_list)):
+                    if i == j:
+                        pass
+                    else:
+                        path2 = img_list[j]
+                        mask2 = cv2.imread(path2, cv2.IMREAD_UNCHANGED)
+                        iou, intersection_mask = compute_occluded_masks(mask1, mask2)
+                        # add occluded masks to image
+                        if iou > 0: # occlusion detected
+                            save_path = f"{occlusion_dir}/{scene_index}_{occ_index}.png"
+                            cv2.imwrite(save_path,intersection_mask)
+                            
+                            save_path = f"{occlusion_vis_dir}/{scene_index}_{occ_index}.png"
+                            cv2.imwrite(save_path,intersection_mask* 255)
+                            
+                            # visulize occlusion masks on rgb
+                            red = np.ones(intersection_mask.shape)
+                            red = red*255
+                            rgb_img[:,:,0][intersection_mask>0] = red[intersection_mask>0]
+                            occ_index += 1
+        
+        save_path = f"{rgb_occ_dir}/{scene_index}.png"
+        cv2.imwrite(save_path,rgb_img)
