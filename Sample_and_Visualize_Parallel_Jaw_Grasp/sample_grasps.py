@@ -10,7 +10,7 @@ import os
 import random
 import transforms3d
 import h5py
-from robust_vacuum_grasp_model import Robust_Vacuum_Grasp_Model
+# from robust_vacuum_grasp_model import Robust_Vacuum_Grasp_Model
 
 # HARDWARE SPECIFIC PARAMETERS
 GRIPPER_HEIGHT = 11.21  # cm
