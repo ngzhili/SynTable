@@ -43,9 +43,9 @@ cd \home\knowledge\.local\share\ov\pkg\isaac_sim-2022.1.0\tools
 
 
 ### **Sample Annotations**
-![plot](./readme_images/RGB.png) 
-![plot](./readme_images/OODAG.png) ![plot](./readme_images/OODAG2.png)
-![plot](./readme_images/OOAM.png) 
+![RGB](./readme_images/RGB.png) 
+![OODAG](./readme_images/OODAG.png) ![OODAG2](./readme_images/OODAG2.png)
+![OOAM](./readme_images/OOAM.png) 
 
 ## MetaGraspNet README
 
