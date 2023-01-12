@@ -1,0 +1,58 @@
+# dropped warehouse objects
+objects:
+  obj_model: Choice(["assets/models/warehouse.txt"])
+
+  obj_count: Range(5, 15)
+
+  obj_size_enabled: False
+  obj_scale: Uniform(0.75, 1.25)
+
+  obj_vert_fov_loc: Uniform(0, 0.5)  
+  obj_distance: Uniform(3, 10)
+  obj_rot: (Normal(0, 45), Normal(0, 45), Uniform(0, 360))
+
+  obj_class_id: 1
+
+  obj_physics: True
+
+
+# colorful ceiling lights
+lights:
+  light_count: Range(0, 2)
+
+  light_coord_camera_relative: False
+  light_coord: (Uniform(-2, 2), Uniform(-2, 2), 5)
+
+  light_color: Uniform((0, 0, 0), (255, 255, 255))
+  light_intensity: Uniform(0, 300000)
+  light_radius: 1
+
+
+# warehouse scenario
+scenario_model: /NVIDIA/Assets/Isaac/2022.1/Isaac/Environments/Simple_Warehouse/warehouse.usd
+scenario_class_id: 0
+
+
+# camera
+camera_coord: (0, 0, Uniform(.20, 1))
+camera_rot: (Normal(0, 1), 0, Uniform(0, 360))
+
+
+
+# output
+output_dir: dataset
+num_scenes: 10
+
+img_width: 1920
+img_height: 1080
+
+rgb: True
+depth: True
+semantic_seg: True
+
+groundtruth_visuals: True
+
+
+
+# simulate
+physics_simulate_time: 2

@@ -1,0 +1,31 @@
+flying_objs:
+  obj_model: Choice(["assets/models/warehouse.txt", "assets/models/hospital.txt", "assets/models/office.txt"])
+
+  obj_size: Uniform(.50, .75)
+  obj_distance: Uniform(4, 20)
+
+
+flying_shapes:
+  obj_model: Choice(["assets/models/shapes.txt"])
+
+  obj_size: Uniform(1, 2)
+  obj_distance: Uniform(15, 25)
+
+
+flying_lights:
+  light_intensity: Uniform(0, 100000)
+  light_radius: Uniform(.50, 1)
+
+  light_vert_fov_loc: Uniform(0, 1)
+
+  light_distance: Uniform(4, 15)
+
+
+# global parameters
+obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+
+obj_horiz_fov_loc: Uniform(-1, 1)
+obj_vert_fov_loc: Uniform(-0.7, 1)
+
+obj_metallicness: Uniform(0.1, 0.8)
+obj_reflectance: Uniform(0.1, 0.8)
