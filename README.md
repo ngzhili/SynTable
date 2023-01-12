@@ -6,7 +6,7 @@
 git clone https://github.com/ngzhili/nvidia-isaac-sim-replicator-composer.git
 ```
 
-2. Move composer1 folder into your isaac sim source code under the tools directory (e.g. \home\knowledge\.local\share\ov\pkg\isaac_sim-2022.1.0\tools)
+2. Move composer1 folder into your isaac sim source code under the tools directory (e.g. ```\home\knowledge\.local\share\ov\pkg\isaac_sim-2022.1.0\tools```)
 
 3. Install Dependencies (to be filled)
 
@@ -17,7 +17,7 @@ git clone https://github.com/ngzhili/nvidia-isaac-sim-replicator-composer.git
 ./python.sh tools/composer1/src/main1.py --input */parameters/default1.yaml --output */dataset/train --mount home/knowledge/zhili --num_scenes 3 --num_views 3 --overwrite --save_segmentation
 ```
 
-### Types of Flag
+### **Types of Flag**
 | Flag           | Description |
 | :---           |    :----:   |
 | ```--input```  | Path to input parameter file.       |
