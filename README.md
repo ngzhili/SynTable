@@ -14,14 +14,7 @@ git clone https://github.com/ngzhili/nvidia-isaac-sim-replicator-composer.git
 ### **Generate Synthetic Dataset**
 
 ``` bash
-./python.sh tools/composer1/src/main1.py 
---input */parameters/default1.yaml 
---output */dataset/train 
---mount <directory_to_mount>
---num_scenes 3 
---num_views 3 
---overwrite 
---save_segmentation
+./python.sh tools/composer1/src/main1.py --input */parameters/default1.yaml --output */dataset/train --mount home/knowledge/zhili --num_scenes 3 --num_views 3 --overwrite --save_segmentation
 ```
 
 ### Types of Flag
@@ -35,19 +28,7 @@ git clone https://github.com/ngzhili/nvidia-isaac-sim-replicator-composer.git
 | ```--output```   | Output directory. Overrides 'output_dir' param.        |
 | ```--num_scenes```  | Number of scenes in dataset. Overrides 'num_scenes' param.       |
 | ```--num_views```  | Number of views to generate per scene. Overrides 'num_views' param.      |
-| ```--save_segmentation```  | saves visualisation of annotations into output directory. False by default.      |
-
-- ```--input``` Path to input parameter file.
-- ```--mount``` Path to mount symbolized in parameter files via '*'.
-- ```--headless```  Will not launch Isaac SIM window.
-- ```--nap``` Will nap Isaac SIM after the first scene is generated.
-- ```--overwrite```: Overwrites dataset in output directory.
-- ```--output```: Output directory. Overrides 'output_dir' param.
-- ```--num_scenes``` Num scenes in dataset. Overrides 'num_scenes' param.
-- ```--num_views```: number of views to generate per scene. Overrides 'num_views' param.
-- ```save_segmentation```: saves visualisation of annotations into output directory. False by default.
-
-
+| ```--save_segmentation```  | Saves visualisation of annotations into output directory. False by default.      |
 
 
 ## MetaGraspNet README
