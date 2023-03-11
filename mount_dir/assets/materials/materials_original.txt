@@ -1,0 +1,10 @@
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Materials/Base/Architecture
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Materials/Base/Carpet
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Materials/Base/Emissives
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Materials/Base/Masonry
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Materials/Base/Metals
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Materials/Base/Natural
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Materials/Base/Plastics
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Materials/Base/Stone
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Materials/Base/Textiles
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Materials/Base/Wood

@@ -1,0 +1,2681 @@
+object_1:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/Book_01.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_2:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/Book_02.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_3:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/Book_11.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_4:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/Book_15.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_5:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/Book_16.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_6:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/Book_21.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_7:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/Book_22.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_8:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/Book_51.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_9:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/Book_60.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_10:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/Book_61.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_11:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/Book_66.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_12:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/Book_77.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_13:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/OmniConnect2015.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_14:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/OmniConnect2016.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_15:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Books/OmniConnect2017.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_16:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Clocks/Clock_Hucksbee.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_17:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Coasters/Coaster_Hexagon.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_18:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Kitchenware/BlackandBrassBowl_Large.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_19:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Kitchenware/BlackandBrassBowl_Small.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_20:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Kitchenware/DecorativeBowl.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_21:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Kitchenware/DecorativeBowlLarge.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_22:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Tchotchkes/Lemon_02.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_23:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Tchotchkes/Orange_02.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_24:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Tchotchkes/ServingTray.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_25:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Vases/CellVase01.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_26:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Vases/CellVase05.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_27:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Vases/Prime3Layer.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_28:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Decor/Vases/Vase_Cylinder.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_29:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Electronics/Speakers/Speaker_Outdoor.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_30:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Kitchen/Kitchenware/Dinnerware/bowl_plate.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_31:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Kitchen/Kitchenware/Dinnerware/plate_large.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_32:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Kitchen/Kitchenware/Dinnerware/plate_small.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_33:
+  obj_class_id: 0
+  obj_model: /Users/zl/Residential/Misc/PaintTray/PaintTray.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_34:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/002_master_chef_can/google_64k_converted/002_master_chef_can.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_35:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/003_cracker_box/google_64k_converted/003_cracker_box.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_36:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/004_sugar_box/google_64k_converted/004_sugar_box.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_37:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/005_tomato_soup_can/google_64k_converted/005_tomato_soup_can.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_38:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/006_mustard_bottle/google_64k_converted/006_mustard_bottle.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_39:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/007_tuna_fish_can/google_64k_converted/007_tuna_fish_can.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_40:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/008_pudding_box/google_64k_converted/008_pudding_box.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_41:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/009_gelatin_box/google_64k_converted/009_gelatin_box.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_42:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/010_potted_meat_can/google_64k_converted/010_potted_meat_can.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_43:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/011_banana/google_64k_converted/011_banana.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_44:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/012_strawberry/google_64k_converted/012_strawberry.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_45:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/013_apple/google_64k_converted/013_apple.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_46:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/014_lemon/google_64k_converted/014_lemon.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_47:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/015_peach/google_64k_converted/015_peach.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_48:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/016_pear/google_64k_converted/016_pear.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_49:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/017_orange/google_64k_converted/017_orange.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_50:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/018_plum/google_64k_converted/018_plum.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_51:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/019_pitcher_base/google_64k_converted/019_pitcher_base.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_52:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/021_bleach_cleanser/google_64k_converted/021_bleach_cleanser.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_53:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/024_bowl/google_64k_converted/024_bowl.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_54:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/025_mug/google_64k_converted/025_mug.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_55:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/026_sponge/google_64k_converted/026_sponge.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_56:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/029_plate/google_64k_converted/029_plate.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_57:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/030_fork/google_64k_converted/030_fork.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_58:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/031_spoon/google_64k_converted/031_spoon.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_59:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/032_knife/google_64k_converted/032_knife.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_60:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/033_spatula/google_64k_converted/033_spatula.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_61:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/035_power_drill/google_64k_converted/035_power_drill.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_62:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/036_wood_block/google_64k_converted/036_wood_block.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_63:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/037_scissors/google_64k_converted/037_scissors.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_64:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/038_padlock/google_64k_converted/038_padlock.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_65:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/040_large_marker/google_64k_converted/040_large_marker.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_66:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/042_adjustable_wrench/google_64k_converted/042_adjustable_wrench.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_67:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/043_phillips_screwdriver/google_64k_converted/043_phillips_screwdriver.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_68:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/044_flat_screwdriver/google_64k_converted/044_flat_screwdriver.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_69:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/048_hammer/google_64k_converted/048_hammer.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_70:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/050_medium_clamp/google_64k_converted/050_medium_clamp.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_71:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/051_large_clamp/google_64k_converted/051_large_clamp.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_72:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/052_extra_large_clamp/google_64k_converted/052_extra_large_clamp.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_73:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/053_mini_soccer_ball/google_64k_converted/053_mini_soccer_ball.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_74:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/054_softball/google_64k_converted/054_softball.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_75:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/055_baseball/google_64k_converted/055_baseball.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_76:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/056_tennis_ball/google_64k_converted/056_tennis_ball.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_77:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/057_racquetball/google_64k_converted/057_racquetball.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_78:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/058_golf_ball/google_64k_converted/058_golf_ball.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_79:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/061_foam_brick/google_64k_converted/061_foam_brick.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_80:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/062_dice/google_64k_converted/062_dice.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_81:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/063-a_marbles/google_64k_converted/063-a_marbles.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_82:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/063-b_marbles/google_64k_converted/063-b_marbles.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_83:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/065-a_cups/google_64k_converted/065-a_cups.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_84:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/065-b_cups/google_64k_converted/065-b_cups.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_85:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/065-c_cups/google_64k_converted/065-c_cups.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_86:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/065-d_cups/google_64k_converted/065-d_cups.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_87:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/065-e_cups/google_64k_converted/065-e_cups.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_88:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/065-f_cups/google_64k_converted/065-f_cups.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_89:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/065-g_cups/google_64k_converted/065-g_cups.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_90:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/065-h_cups/google_64k_converted/065-h_cups.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_91:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/065-i_cups/google_64k_converted/065-i_cups.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_92:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/065-j_cups/google_64k_converted/065-j_cups.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_93:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/070-a_colored_wood_blocks/google_64k_converted/070-a_colored_wood_blocks.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_94:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/070-b_colored_wood_blocks/google_64k_converted/070-b_colored_wood_blocks.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_95:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/071_nine_hole_peg_test/google_64k_converted/071_nine_hole_peg_test.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_96:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/072-a_toy_airplane/google_64k_converted/072-a_toy_airplane.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_97:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/072-b_toy_airplane/google_64k_converted/072-b_toy_airplane.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_98:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/072-c_toy_airplane/google_64k_converted/072-c_toy_airplane.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_99:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/072-d_toy_airplane/google_64k_converted/072-d_toy_airplane.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_100:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/072-e_toy_airplane/google_64k_converted/072-e_toy_airplane.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_101:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/073-a_lego_duplo/google_64k_converted/073-a_lego_duplo.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_102:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/073-b_lego_duplo/google_64k_converted/073-b_lego_duplo.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_103:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/073-c_lego_duplo/google_64k_converted/073-c_lego_duplo.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_104:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/073-d_lego_duplo/google_64k_converted/073-d_lego_duplo.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_105:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/073-e_lego_duplo/google_64k_converted/073-e_lego_duplo.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_106:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/073-f_lego_duplo/google_64k_converted/073-f_lego_duplo.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_107:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/073-g_lego_duplo/google_64k_converted/073-g_lego_duplo.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_108:
+  obj_class_id: 0
+  obj_model: /Users/zl/YCB_64k/077_rubiks_cube/google_64k_converted/077_rubiks_cube.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_109:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/AMBERLIGHT_UP_W/meshes_converted/AMBERLIGHT_UP_W.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_110:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/ASICS_GEL1140V_WhiteRoyalSilver/meshes_converted/ASICS_GEL1140V_WhiteRoyalSilver.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_111:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/ASICS_GELAce_Pro_Pearl_WhitePink/meshes_converted/ASICS_GELAce_Pro_Pearl_WhitePink.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_112:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange/meshes_converted/ASICS_GELBlur33_20_GS_BlackWhiteSafety_Orange.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_113:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver/meshes_converted/ASICS_GELBlur33_20_GS_Flash_YellowHot_PunchSilver.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_114:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/ASICS_GELChallenger_9_Royal_BlueWhiteBlack/meshes_converted/ASICS_GELChallenger_9_Royal_BlueWhiteBlack.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_115:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/ASICS_GELLinksmaster_WhiteCoffeeSand/meshes_converted/ASICS_GELLinksmaster_WhiteCoffeeSand.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_116:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/ASICS_GELLinksmaster_WhiteSilverCarolina_Blue/meshes_converted/ASICS_GELLinksmaster_WhiteSilverCarolina_Blue.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_117:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Chelsea_BlkHeelPMP_DwxLtZNxLZZ/meshes_converted/Chelsea_BlkHeelPMP_DwxLtZNxLZZ.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_118:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Copperhead_Snake_Tieks_Brown_Snake_Print_Ballet_Flats/meshes_converted/Copperhead_Snake_Tieks_Brown_Snake_Print_Ballet_Flats.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_119:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Court_Attitude/meshes_converted/Court_Attitude.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_120:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Crazy_8/meshes_converted/Crazy_8.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_121:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Crazy_Shadow_2/meshes_converted/Crazy_Shadow_2.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_122:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Cream_Tieks_Italian_Leather_Ballet_Flats/meshes_converted/Cream_Tieks_Italian_Leather_Ballet_Flats.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_123:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/D_ROSE_45/meshes_converted/D_ROSE_45.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_124:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/D_ROSE_773_II_Kqclsph05pE/meshes_converted/D_ROSE_773_II_Kqclsph05pE.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_125:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/D_ROSE_ENGLEWOOD_II/meshes_converted/D_ROSE_ENGLEWOOD_II.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_126:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/F10_TRX_FG_ssscuo9tGxb/meshes_converted/F10_TRX_FG_ssscuo9tGxb.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_127:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/F10_TRX_TF_rH7tmKCdUJq/meshes_converted/F10_TRX_TF_rH7tmKCdUJq.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_128:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/F5_TRX_FG/meshes_converted/F5_TRX_FG.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_129:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/FYW_DIVISION/meshes_converted/FYW_DIVISION.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_130:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/GIRLS_DECKHAND/meshes_converted/GIRLS_DECKHAND.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_131:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Ghost_6_GTX_Color_AnthBlckSlvrFernSulphSprng_Size_80/meshes_converted/Ghost_6_GTX_Color_AnthBlckSlvrFernSulphSprng_Size_80.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_132:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Glycerin_11_Color_BrllntBluSkydvrSlvrBlckWht_Size_80/meshes_converted/Glycerin_11_Color_BrllntBluSkydvrSlvrBlckWht_Size_80.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_133:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Grand_Prix/meshes_converted/Grand_Prix.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_134:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Great_Jones_Wingtip/meshes_converted/Great_Jones_Wingtip.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_135:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Great_Jones_Wingtip_wxH3dbtlvBC/meshes_converted/Great_Jones_Wingtip_wxH3dbtlvBC.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_136:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/JS_WINGS_20_BLACK_FLAG/meshes_converted/JS_WINGS_20_BLACK_FLAG.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_137:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/MARTIN_WEDGE_LACE_BOOT/meshes_converted/MARTIN_WEDGE_LACE_BOOT.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_138:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Matte_Black_Tieks_Italian_Leather_Ballet_Flats/meshes_converted/Matte_Black_Tieks_Italian_Leather_Ballet_Flats.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_139:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc/meshes_converted/Mens_ASV_Billfish_Boat_Shoe_in_Tan_Leather_wmUJ5PbwANc.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_140:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_ASV_Shock_Light_Bungee_in_Light_Grey_xGCOvtLDnQJ/meshes_converted/Mens_ASV_Shock_Light_Bungee_in_Light_Grey_xGCOvtLDnQJ.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_141:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_Authentic_Original_Boat_Shoe_in_Navy_Leather_RpT4GvUXRRP/meshes_converted/Mens_Authentic_Original_Boat_Shoe_in_Navy_Leather_RpT4GvUXRRP.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_142:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_Bahama_in_Khaki_Oyster_xU2jeqYwhQJ/meshes_converted/Mens_Bahama_in_Khaki_Oyster_xU2jeqYwhQJ.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_143:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_Billfish_3Eye_Boat_Shoe_in_Dark_Tan_wyns9HRcEuH/meshes_converted/Mens_Billfish_3Eye_Boat_Shoe_in_Dark_Tan_wyns9HRcEuH.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_144:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_Billfish_Slip_On_in_Coffee_nK6AJJAHOae/meshes_converted/Mens_Billfish_Slip_On_in_Coffee_nK6AJJAHOae.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_145:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather/meshes_converted/Mens_Gold_Cup_ASV_2Eye_Boat_Shoe_in_Cognac_Leather.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_146:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_Gold_Cup_ASV_Capetown_Penny_Loafer_in_Black_GkQBKqABeQN/meshes_converted/Mens_Gold_Cup_ASV_Capetown_Penny_Loafer_in_Black_GkQBKqABeQN.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_147:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R/meshes_converted/Mens_Largo_Slip_On_in_Taupe_gooyS417q4R.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_148:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_Mako_Canoe_Moc_2Eye_Boat_Shoe_in_Coffee_9d05GG33QQQ/meshes_converted/Mens_Mako_Canoe_Moc_2Eye_Boat_Shoe_in_Coffee_9d05GG33QQQ.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_149:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_RR_Moc_in_Navy_Suede_vmFfijhBzL3/meshes_converted/Mens_RR_Moc_in_Navy_Suede_vmFfijhBzL3.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_150:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_Santa_Cruz_Thong_in_Chocolate_La1fo2mAovE/meshes_converted/Mens_Santa_Cruz_Thong_in_Chocolate_La1fo2mAovE.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_151:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_Santa_Cruz_Thong_in_Tan_r59C69daRPh/meshes_converted/Mens_Santa_Cruz_Thong_in_Tan_r59C69daRPh.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_152:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_Tremont_Kiltie_Tassel_Loafer_in_Black_Amaretto/meshes_converted/Mens_Tremont_Kiltie_Tassel_Loafer_in_Black_Amaretto.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_153:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_Tremont_Kiltie_Tassel_Loafer_in_Black_Amaretto_FT0I9OjSA6O/meshes_converted/Mens_Tremont_Kiltie_Tassel_Loafer_in_Black_Amaretto_FT0I9OjSA6O.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_154:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Mens_Wave_Driver_Kiltie_Moc_in_Tan_Leather/meshes_converted/Mens_Wave_Driver_Kiltie_Moc_in_Tan_Leather.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_155:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Metallic_Pewter_Tieks_Italian_Leather_Ballet_Flats/meshes_converted/Metallic_Pewter_Tieks_Italian_Leather_Ballet_Flats.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_156:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/PHEEHAN_RUN/meshes_converted/PHEEHAN_RUN.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_157:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/PureFlow_2_Color_RylPurHibiscusBlkSlvrWht_Size_50/meshes_converted/PureFlow_2_Color_RylPurHibiscusBlkSlvrWht_Size_50.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_158:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/REEF_ZENFUN/meshes_converted/REEF_ZENFUN.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_159:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Ravenna_4_Color_WhtOlyBluBlkShkOrngSlvRdO_Size_70/meshes_converted/Ravenna_4_Color_WhtOlyBluBlkShkOrngSlvRdO_Size_70.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_160:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_ALLYLYNN/meshes_converted/Reebok_ALLYLYNN.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_161:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_BREAKPOINT_MID/meshes_converted/Reebok_BREAKPOINT_MID.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_162:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_CLASSIC_JOGGER/meshes_converted/Reebok_CLASSIC_JOGGER.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_163:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_CLASSIC_LEGACY_II/meshes_converted/Reebok_CLASSIC_LEGACY_II.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_164:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_COMFORT_REEFRESH_FLIP/meshes_converted/Reebok_COMFORT_REEFRESH_FLIP.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_165:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_DMX_MAX_MANIA_WD_D/meshes_converted/Reebok_DMX_MAX_MANIA_WD_D.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_166:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_DMX_MAX_PLUS_RAINWALKER/meshes_converted/Reebok_DMX_MAX_PLUS_RAINWALKER.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_167:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_EASYTONE_CL_LEATHER/meshes_converted/Reebok_EASYTONE_CL_LEATHER.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_168:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_FS_HI_INT_R12/meshes_converted/Reebok_FS_HI_INT_R12.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_169:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_HIMARA_LTR/meshes_converted/Reebok_HIMARA_LTR.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_170:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_JR_ZIG_COOPERSTOWN_MR/meshes_converted/Reebok_JR_ZIG_COOPERSTOWN_MR.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_171:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_PUMP_OMNI_LITE_HLS/meshes_converted/Reebok_PUMP_OMNI_LITE_HLS.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_172:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_REALFLEX_SELECT/meshes_converted/Reebok_REALFLEX_SELECT.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_173:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_RETRO_RUSH_2V/meshes_converted/Reebok_RETRO_RUSH_2V.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_174:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_R_DANCE_FLASH/meshes_converted/Reebok_R_DANCE_FLASH.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_175:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_SH_COURT_MID_II/meshes_converted/Reebok_SH_COURT_MID_II.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_176:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_SH_PRIME_COURT_LOW/meshes_converted/Reebok_SH_PRIME_COURT_LOW.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_177:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_SMOOTHFLEX_CUSHRUN_20/meshes_converted/Reebok_SMOOTHFLEX_CUSHRUN_20.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_178:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reebok_ZIGLITE_RUSH_AC/meshes_converted/Reebok_ZIGLITE_RUSH_AC.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_179:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Reef_Star_Cushion_Flipflops_Size_8_Black/meshes_converted/Reef_Star_Cushion_Flipflops_Size_8_Black.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_180:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Rose_Garden_Tieks_Leather_Ballet_Flats_with_Floral_Rosettes/meshes_converted/Rose_Garden_Tieks_Leather_Ballet_Flats_with_Floral_Rosettes.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_181:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/SAMBA_HEMP/meshes_converted/SAMBA_HEMP.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_182:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Samoa_onepiece/meshes_converted/Samoa_onepiece.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_183:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Santa_Cruz_Mens_G7kQXK7cIky/meshes_converted/Santa_Cruz_Mens_G7kQXK7cIky.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_184:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Santa_Cruz_Mens_YmsMDkFf11Z/meshes_converted/Santa_Cruz_Mens_YmsMDkFf11Z.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_185:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Santa_Cruz_Mens_umxTczr1Ygg/meshes_converted/Santa_Cruz_Mens_umxTczr1Ygg.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_186:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Sienna_Brown_Croc_Tieks_Patent_Leather_Crocodile_Print_Ballet_Flats/meshes_converted/Sienna_Brown_Croc_Tieks_Patent_Leather_Crocodile_Print_Ballet_Flats.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_187:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Sperry_TopSider_pSUFPWQXPp3/meshes_converted/Sperry_TopSider_pSUFPWQXPp3.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_188:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Sperry_TopSider_tNB9t6YBUf3/meshes_converted/Sperry_TopSider_tNB9t6YBUf3.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_189:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/TOP_TEN_HI_60KlbRbdoJA/meshes_converted/TOP_TEN_HI_60KlbRbdoJA.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_190:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/TZX_Runner/meshes_converted/TZX_Runner.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_191:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Tieks_Ballet_Flats_Diamond_White_Croc/meshes_converted/Tieks_Ballet_Flats_Diamond_White_Croc.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_192:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Tieks_Ballet_Flats_Electric_Snake/meshes_converted/Tieks_Ballet_Flats_Electric_Snake.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_193:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Timberland_Mens_Classic_2Eye_Boat_Shoe/meshes_converted/Timberland_Mens_Classic_2Eye_Boat_Shoe.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_194:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Timberland_Mens_Earthkeepers_Heritage_2Eye_Boat_Shoe/meshes_converted/Timberland_Mens_Earthkeepers_Heritage_2Eye_Boat_Shoe.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_195:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Timberland_Mens_Earthkeepers_Newmarket_6Inch_Cupsole_Boot/meshes_converted/Timberland_Mens_Earthkeepers_Newmarket_6Inch_Cupsole_Boot.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_196:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Timberland_Mens_Earthkeepers_Stormbuck_Chukka/meshes_converted/Timberland_Mens_Earthkeepers_Stormbuck_Chukka.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_197:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Timberland_Mens_Earthkeepers_Stormbuck_Lite_Plain_Toe_Oxford/meshes_converted/Timberland_Mens_Earthkeepers_Stormbuck_Lite_Plain_Toe_Oxford.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_198:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Timberland_Womens_Earthkeepers_Classic_Unlined_Boat_Shoe/meshes_converted/Timberland_Womens_Earthkeepers_Classic_Unlined_Boat_Shoe.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_199:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold/meshes_converted/Tory_Burch_Kaitlin_Ballet_Mestico_in_BlackGold.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_200:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Tory_Burch_Kiernan_Riding_Boot/meshes_converted/Tory_Burch_Kiernan_Riding_Boot.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_201:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Tory_Burch_Reva_Metal_Logo_Litus_Snake_Print_in_dark_BranchGold/meshes_converted/Tory_Burch_Reva_Metal_Logo_Litus_Snake_Print_in_dark_BranchGold.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_202:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/UGG_Bailey_Bow_Womens_Clogs_Black_7/meshes_converted/UGG_Bailey_Bow_Womens_Clogs_Black_7.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_203:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/UGG_Bailey_Button_Triplet_Womens_Boots_Black_7/meshes_converted/UGG_Bailey_Button_Triplet_Womens_Boots_Black_7.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_204:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/UGG_Cambridge_Womens_Black_7/meshes_converted/UGG_Cambridge_Womens_Black_7.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_205:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/UGG_Classic_Tall_Womens_Boots_Grey_7/meshes_converted/UGG_Classic_Tall_Womens_Boots_Grey_7.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_206:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/White_Rose_Tieks_Leather_Ballet_Flats_with_Floral_Rosettes/meshes_converted/White_Rose_Tieks_Leather_Ballet_Flats_with_Floral_Rosettes.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_207:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Wild_Copper_Tieks_Metallic_Italian_Leather_Ballet_Flats/meshes_converted/Wild_Copper_Tieks_Metallic_Italian_Leather_Ballet_Flats.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_208:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Angelfish_Boat_Shoe_in_Linen_Leopard_Sequin_NJDwosWNeZz/meshes_converted/Womens_Angelfish_Boat_Shoe_in_Linen_Leopard_Sequin_NJDwosWNeZz.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_209:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Angelfish_Boat_Shoe_in_Linen_Oat/meshes_converted/Womens_Angelfish_Boat_Shoe_in_Linen_Oat.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_210:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Audrey_Slip_On_Boat_Shoe_in_Graphite_Nubuck_xWVkCJ5vxZe/meshes_converted/Womens_Audrey_Slip_On_Boat_Shoe_in_Graphite_Nubuck_xWVkCJ5vxZe.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_211:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Authentic_Original_Boat_Shoe_in_Classic_Brown_Leather/meshes_converted/Womens_Authentic_Original_Boat_Shoe_in_Classic_Brown_Leather.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_212:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Betty_Chukka_Boot_in_Navy_Jersey_Sequin_y0SsHk7dKUX/meshes_converted/Womens_Betty_Chukka_Boot_in_Navy_Jersey_Sequin_y0SsHk7dKUX.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_213:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Betty_Chukka_Boot_in_Navy_aEE8OqvMII4/meshes_converted/Womens_Betty_Chukka_Boot_in_Navy_aEE8OqvMII4.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_214:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Bluefish_2Eye_Boat_Shoe_in_Brown_Deerskin_i1TgjjO0AKY/meshes_converted/Womens_Bluefish_2Eye_Boat_Shoe_in_Brown_Deerskin_i1TgjjO0AKY.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_215:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Bluefish_2Eye_Boat_Shoe_in_Linen_Natural_Sparkle_Suede_kqi81aojcOR/meshes_converted/Womens_Bluefish_2Eye_Boat_Shoe_in_Linen_Natural_Sparkle_Suede_kqi81aojcOR.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_216:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Bluefish_2Eye_Boat_Shoe_in_Linen_Natural_Sparkle_Suede_w34KNQ41csH/meshes_converted/Womens_Bluefish_2Eye_Boat_Shoe_in_Linen_Natural_Sparkle_Suede_w34KNQ41csH.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_217:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Bluefish_2Eye_Boat_Shoe_in_Linen_Oat/meshes_converted/Womens_Bluefish_2Eye_Boat_Shoe_in_Linen_Oat.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_218:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Canvas_Bahama_in_Black_vnJULsDVyq5/meshes_converted/Womens_Canvas_Bahama_in_Black_vnJULsDVyq5.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_219:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Canvas_Bahama_in_White_4UyOhP6rYGO/meshes_converted/Womens_Canvas_Bahama_in_White_4UyOhP6rYGO.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_220:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Canvas_Bahama_in_White_UfZPHGQpvz0/meshes_converted/Womens_Canvas_Bahama_in_White_UfZPHGQpvz0.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_221:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Cloud_Logo_Authentic_Original_Boat_Shoe_in_Black_Supersoft_cZR022qFI4k/meshes_converted/Womens_Cloud_Logo_Authentic_Original_Boat_Shoe_in_Black_Supersoft_cZR022qFI4k.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_222:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Hikerfish_Boot_in_Black_Leopard_bVSNY1Le1sm/meshes_converted/Womens_Hikerfish_Boot_in_Black_Leopard_bVSNY1Le1sm.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_223:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Hikerfish_Boot_in_Black_Leopard_ridcCWsv8rW/meshes_converted/Womens_Hikerfish_Boot_in_Black_Leopard_ridcCWsv8rW.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_224:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Hikerfish_Boot_in_Linen_Leather_Sparkle_Suede_QktIyAkonrU/meshes_converted/Womens_Hikerfish_Boot_in_Linen_Leather_Sparkle_Suede_QktIyAkonrU.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_225:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Sequin_Bahama_in_White_Sequin_V9K1hf24Oxe/meshes_converted/Womens_Sequin_Bahama_in_White_Sequin_V9K1hf24Oxe.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_226:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Sequin_Bahama_in_White_Sequin_XoR8xTlxj1g/meshes_converted/Womens_Sequin_Bahama_in_White_Sequin_XoR8xTlxj1g.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_227:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Sequin_Bahama_in_White_Sequin_yGVsSA4tOwJ/meshes_converted/Womens_Sequin_Bahama_in_White_Sequin_yGVsSA4tOwJ.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_228:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Sparkle_Suede_Bahama_in_Silver_Sparkle_Suede_Grey_Patent_x9rclU7EJXx/meshes_converted/Womens_Sparkle_Suede_Bahama_in_Silver_Sparkle_Suede_Grey_Patent_x9rclU7EJXx.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_229:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R/meshes_converted/Womens_Suede_Bahama_in_Graphite_Suede_p1KUwoWbw7R.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_230:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX/meshes_converted/Womens_Suede_Bahama_in_Graphite_Suede_t22AJSRjBOX.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_231:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/ZX700_lYiwcTIekXk/meshes_converted/ZX700_lYiwcTIekXk.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_232:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/ZX700_mf9Pc06uL06/meshes_converted/ZX700_mf9Pc06uL06.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_233:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/ZX700_mzGbdP3u6JB/meshes_converted/ZX700_mzGbdP3u6JB.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_234:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/adistar_boost_m/meshes_converted/adistar_boost_m.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+object_235:
+  obj_class_id: 0
+  obj_model: /Users/zl/google_scanned_dataset_validation/Shoe/adizero_5Tool_25/meshes_converted/adizero_5Tool_25.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 1
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+table:
+  obj_class_id: 0
+  obj_model: Choice('*/assets/models/tables.txt')
+  obj_count: 1
+  obj_size_enabled: false
+  obj_size: 10
+  obj_scale: 0.01
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: (0,0,0)
+  obj_material: Choice('*/assets/materials/materials.txt')
+  obj_texture_rot: Uniform(0, 360)
+  obj_physics: false
+ceilinglights:
+  light_intensity: Uniform(100,1500)
+  light_radius: 15
+  light_color: (255, 255, 255)
+  light_temp_enabled: false
+  light_temp: Uniform(2000,6500)
+  light_directed: true
+  light_directed_focus: 20
+  light_directed_focus_softness: 0
+  light_height: 15
+  light_width: 15
+  light_distant: false
+  light_camera_relative: false
+  light_rot: (0, 0, 0)
+  light_coord: (0, 0, 5)
+  light_count: 1
+  light_distance: Uniform(3, 8)
+  light_coord_camera_relative: false
+  light_rot_camera_relative: false
+  light_vel: (0, 0, 0)
+  light_rot_vel: (0, 0, 0)
+  light_accel: (0, 0, 0)
+  light_rot_accel: (0, 0, 0)
+  light_movement_light_relative: false
+lights:
+  light_intensity: Uniform(0,30000)
+  light_radius: Uniform(0.3,0.7)
+  light_color: (255, 255, 255)
+  light_temp_enabled: false
+  light_temp: Uniform(2000,6500)
+  light_directed: false
+  light_directed_focus: 20
+  light_directed_focus_softness: 0
+  light_distant: false
+  light_camera_relative: false
+  light_rot: (0, 0, 0)
+  light_coord: (0, 0, 15)
+  light_count: 1
+  light_distance: Uniform(3, 8)
+  light_horiz_fov_loc: Uniform(-1, 1)
+  light_vert_fov_loc: Uniform(-1, 1)
+  light_coord_camera_relative: false
+  light_rot_camera_relative: false
+  light_vel: (0, 0, 0)
+  light_rot_vel: (0, 0, 0)
+  light_accel: (0, 0, 0)
+  light_rot_accel: (0, 0, 0)
+  light_movement_light_relative: false
+spherelight_hemisphere_radius_min: 1.5
+spherelight_hemisphere_radius_max: 2.5
+cam_hemisphere_radius_min: 0.7
+cam_hemisphere_radius_max: 1.4
+auto_hemisphere_radius: true
+scenario_room_enabled: true
+scenario_class_id: 0
+floor_size: 15
+wall_height: 15
+floor_material: Choice('*/assets/materials/materials.txt')
+wall_material: Choice('*/assets/materials/materials.txt')
+floor_texture_rot: Uniform(0, 360)
+wall_texture_rot: Uniform(0, 360)
+camera_coord: (-2, 0, 2)
+camera_rot: (-20, 0, 0)
+focus_distance: 1
+max_obj_in_scene: Range(1, 40)
+randomise_num_of_objs_in_scene: true
+save_segmentation_data: false
+save_background: false
+output_dir: dataset
+num_scenes: 10
+num_views: 2
+img_width: 640
+img_height: 480
+rgb: true
+depth: true
+instance_seg: true
+groundtruth_visuals: true
+physics_simulate_time: 5
+path_tracing: false
+sky_light_intensity: 0
+horiz_aperture: 2.6327803436685087
+vert_aperture: 1.9573321100745658
+focal_length: 1.88

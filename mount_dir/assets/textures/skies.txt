@@ -1,0 +1,5 @@
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/Skies/Clear
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/Skies/Cloudy
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/Skies/Dynamic
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/Skies/Evening
+/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/Skies/Storm

@@ -1,0 +1,8 @@
+/NVIDIA/Assets/Isaac/2022.1/Isaac/Robots/Carter/carter_v1.usd
+/NVIDIA/Assets/Isaac/2022.1/Isaac/Robots/Carter/carter_v2.usd
+/NVIDIA/Assets/Isaac/2022.1/Isaac/Robots/Franka/franka.usd
+/NVIDIA/Assets/Isaac/2022.1/Isaac/Robots/Jetbot/aws_robomaker_jetbot.usd
+/NVIDIA/Assets/Isaac/2022.1/Isaac/Robots/Jetbot/jetbot.usd
+/NVIDIA/Assets/Isaac/2022.1/Isaac/Robots/Jetracer/jetracer.usd
+/NVIDIA/Assets/Isaac/2022.1/Isaac/Robots/Kaya/kaya.usd
+/NVIDIA/Assets/Isaac/2022.1/Isaac/Robots/Transporter/transporter.usd

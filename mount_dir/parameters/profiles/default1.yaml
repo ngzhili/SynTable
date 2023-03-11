@@ -1,0 +1,214 @@
+# Default parameters. Do not edit, move, or delete.
+
+# default object parameters
+obj_model: /NVIDIA/Assets/Isaac/2022.1/Isaac/Props/Forklift/forklift.usd
+
+obj_color: ()
+obj_texture: ""
+obj_material: ""
+
+obj_metallicness: float("NaN")
+obj_reflectance: float("NaN")
+
+obj_size_enabled: True
+obj_size: 1
+obj_scale: 1
+
+obj_texture_scale: 1
+obj_texture_rot: 0
+
+obj_rot: (0, 0, 0)
+obj_coord: (0, 0, 0)
+
+obj_centered: True
+
+obj_physics: False
+
+obj_rot_camera_relative: True
+obj_coord_camera_relative: True
+
+obj_count: 0
+obj_distance: Uniform(300, 800)
+obj_horiz_fov_loc: Uniform(-1, 1)
+obj_vert_fov_loc: Uniform(-1, 1)
+
+obj_vel: (0, 0, 0)
+obj_rot_vel: (0, 0, 0)
+
+obj_accel: (0, 0, 0)
+obj_rot_accel: (0, 0, 0)
+
+obj_movement_obj_relative: False
+
+obj_class_id: 1
+
+
+# default light parameters
+light_intensity: 100000
+light_radius: 0.5
+
+light_temp_enabled: False
+light_color: (255, 255, 255)
+light_temp: 6500
+
+light_directed: False
+light_directed_focus: 20
+light_directed_focus_softness: 0
+light_height: 15
+light_width: 15
+
+light_distant: False
+
+light_camera_relative: True
+
+light_rot: (0, 0, 0)
+light_coord: (0, 0, 0)
+
+light_count: 0
+light_distance: Uniform(3, 8)
+light_horiz_fov_loc: Uniform(-1, 1)
+light_vert_fov_loc: Uniform(-1, 1)
+
+light_coord_camera_relative: True
+light_rot_camera_relative: True
+
+light_vel: (0, 0, 0)
+light_rot_vel: (0, 0, 0)
+
+light_accel: (0, 0, 0)
+light_rot_accel: (0, 0, 0)
+
+light_movement_light_relative: False
+
+lights_hemisphere_radius_min: 1.5
+lights_hemisphere_radius_max: 2.5
+
+# default scenario parameters
+scenario_room_enabled: False
+
+scenario_model: /NVIDIA/Assets/Isaac/2022.1/Isaac/Environments/Simple_Warehouse/warehouse.usd
+
+scenario_class_id: 0
+
+sky_texture: ""
+sky_light_intensity: 1000
+
+floor: True
+wall: True
+ceiling: True
+
+wall_height: 20
+floor_size: 20
+
+floor_color: ()
+wall_color: ()
+ceiling_color: ()
+
+floor_texture: ""
+wall_texture: ""
+ceiling_texture: ""
+
+floor_texture_scale: 1
+wall_texture_scale: 1
+ceiling_texture_scale: 1
+
+floor_texture_rot: 0
+wall_texture_rot: 0
+ceiling_texture_rot: 0
+
+floor_material: ""
+wall_material: ""
+ceiling_material: ""
+
+floor_reflectance: float("NaN")
+wall_reflectance: float("NaN")
+ceiling_reflectance: float("NaN")
+
+floor_metallicness: float("NaN")
+wall_metallicness: float("NaN")
+ceiling_metallicness: float("NaN")
+
+
+# default camera parameters
+focal_length: 18.15
+focus_distance: 4
+
+horiz_aperture: 20.955
+vert_aperture: 15.2908
+
+f_stop: 0
+
+stereo: False
+stereo_baseline: 20
+
+camera_coord: (0, 0, 50)
+camera_rot: (0, 0, 0)
+
+camera_vel: (0, 0, 0)
+camera_rot_vel: (0, 0, 0)
+
+camera_accel: (0, 0, 0)
+camera_rot_accel: (0, 0, 0)
+
+camera_movement_camera_relative: False
+
+
+cam_hemisphere_radius_min: 0.7
+cam_hemisphere_radius_max: 1.4
+
+# Camera and Light Parameters
+auto_hemisphere_radius: False
+
+# Scene Settings
+max_obj_in_scene: 10
+randomise_num_of_objs_in_scene: False
+save_segmentation_data: False
+save_background: False
+checkpoint_interval: 10
+
+# default output parameters
+output_dir: dataset
+num_scenes: 10
+num_views: 1
+img_width: 1280
+img_height: 720
+
+write_data: True
+num_data_writer_threads: 4
+
+sequential: False
+sequence_step_count: 10
+sequence_step_time: 1
+
+rgb: True
+depth: False
+disparity: False
+instance_seg: False
+semantic_seg: False
+bbox_2d_tight: False
+bbox_2d_loose: False
+bbox_3d: False
+wireframe: False
+
+groundtruth_stereo: False
+groundtruth_visuals: False 
+
+
+# default model store parameters
+nucleus_server: localhost
+
+
+# default debug parameters
+pause: 0
+verbose: True
+
+
+# simulation parameters
+physics_simulate_time: 1
+scene_units_in_meters: 1
+path_tracing: False
+samples_per_pixel_per_frame: 32
+
+
+
+

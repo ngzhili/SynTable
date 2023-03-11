@@ -1,0 +1,11 @@
+/Users/zl/Materials/Base/Architecture
+/Users/zl/Materials/Base/Carpet
+/Users/zl/Materials/Base/Masonry
+/Users/zl/Materials/Base/Metals
+/Users/zl/Materials/Base/Miscellaneous
+/Users/zl/Materials/Base/Natural
+/Users/zl/Materials/Base/Plastics
+/Users/zl/Materials/Base/Stone
+/Users/zl/Materials/Base/Textiles
+/Users/zl/Materials/Base/Wood
+/Users/zl/Materials/Base/Wall_Board
