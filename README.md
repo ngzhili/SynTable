@@ -43,7 +43,7 @@ cp -r SynTable/mount_dir /home/<username>
 ```
 
 # **Adding object models to nucleus**
-1. You can download the .USD object models to be used for generating the tabletop datasets [here](https://mega.nz/folder/1nJAwQxA#1P3iUtqENKCS66uQYXk1vg).
+1. You can download the .USD object models to be used for generating the tabletop datasets [here](https://mega.nz/folder/1nJAwQxA#1P3iUtqENKCS66uQYXk1vg){:target="_blank"}.
 
 2. Move all folders into Omniverse Nucleus.
 
