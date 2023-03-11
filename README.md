@@ -9,9 +9,10 @@ Syntable is a robust data generation pipeline that creates photorealistic synthe
 git clone https://github.com/ngzhili/nvidia-isaac-sim-replicator-composer.git
 ```
 
-2. Move syntable folder into your isaac sim source code under the tools directory (e.g. ```\home\knowledge\.local\share\ov\pkg\isaac_sim-2022.1.0\tools```)
+2. Move syntable folder into your isaac sim source code under the tools directory (e.g. ```\home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0\tools```)
 
-3. Install Dependencies
+3. Install Dependencies into isaac sim's python
+- Get isaac sim python path
 
 
 
