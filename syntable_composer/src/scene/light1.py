@@ -1,11 +1,3 @@
-# Copyright (c) 2021, NVIDIA CORPORATION.  All rights reserved.
-#
-# NVIDIA CORPORATION and its licensors retain all intellectual property
-# and proprietary rights in and to this software, related documentation
-# and any modifications thereto.  Any use, reproduction, disclosure or
-# distribution of this software and related documentation without an express
-# license agreement from NVIDIA CORPORATION is strictly prohibited.
-
 from sampling.sample1 import Sampler
 from scene.asset1 import Asset
 
@@ -27,7 +19,6 @@ class Light(Asset):
         else:
             name = "sphere_light"
 
-        # super().__init__(sim_app, sim_context, path, "light", name, camera=camera, group=group)
         super().__init__(sim_app, sim_context, path, "light", name, camera=camera, group=group)
 
         self.load_light()
@@ -62,9 +53,6 @@ class Light(Asset):
         attributes = {}
         if self.distant:
             light_shape = "DistantLight"
-        # elif self.directed:
-        #     light_shape = "DiskLight"
-        #     attributes["radius"] = radius
         elif self.directed:
             light_shape = "RectLight"
             attributes["width"] = width

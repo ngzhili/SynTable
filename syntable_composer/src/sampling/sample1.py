@@ -1,11 +1,3 @@
-# Copyright (c) 2021, NVIDIA CORPORATION.  All rights reserved.
-#
-# NVIDIA CORPORATION and its licensors retain all intellectual property
-# and proprietary rights in and to this software, related documentation
-# and any modifications thereto.  Any use, reproduction, disclosure or
-# distribution of this software and related documentation without an express
-# license agreement from NVIDIA CORPORATION is strictly prohibited.
-
 import numpy as np
 
 from distributions import Distribution
@@ -54,18 +46,12 @@ class Sampler:
             print('Warning key "{}" in group "{}" not found in parameter set.'.format(key, group))
             return None
         if key == "obj_coord" and group != "table" and tableBounds:
-            # print(key,group)
-            # print("param_set:",param_set)
-            # print(f"val:{val}")
             min_val = tableBounds[0]
             max_val = tableBounds[1]
             val.min_val = min_val
             val.max_val = max_val
-            # print(f"val:{val}")
-
         val = self.evaluate(val)
-        # if key == "obj_coord" and group != "table":
-        #     print(f"val:{val}\n")
+
         Logger.write_parameter(key, val, group=group)
 
         return val

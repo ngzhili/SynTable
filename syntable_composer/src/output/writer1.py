@@ -1,11 +1,3 @@
-# Copyright (c) 2021, NVIDIA CORPORATION.  All rights reserved.
-#
-# NVIDIA CORPORATION and its licensors retain all intellectual property
-# and proprietary rights in and to this software, related documentation
-# and any modifications thereto.  Any use, reproduction, disclosure or
-# distribution of this software and related documentation without an express
-# license agreement from NVIDIA CORPORATION is strictly prohibited.
-
 import atexit
 import numpy as np
 import os
@@ -102,7 +94,6 @@ class DataWriter:
                         groundtruth["METADATA"]["SEMANTIC"]["COLORIZE"],
                         groundtruth["METADATA"]["SEMANTIC"]["NPY"],
                     )
-                # zhili added:
                 elif gt_type == "AMODAL":
                     self.save_segmentation(
                         viewport_name,
@@ -161,7 +152,6 @@ class DataWriter:
                 data_folder = os.path.join(self.data_dir, viewport_name, "semantic")
                 data = np.array(data, dtype=np.uint8)
                 img = Image.fromarray(data, mode="L")
-            # zhili added
             elif data_type == "AMODAL":
                 data_folder = os.path.join(self.data_dir, viewport_name, "amodal")
                 data = np.array(data, dtype=np.uint8)
@@ -190,7 +180,6 @@ class DataWriter:
                 data_folder = os.path.join(self.data_dir, viewport_name, "instance", "visuals")
             elif data_type == "SEMANTIC":
                 data_folder = os.path.join(self.data_dir, viewport_name, "semantic", "visuals")
-            # zhili added
             elif data_type == "AMODAL":
                 data_folder = os.path.join(self.data_dir, viewport_name, "amodal", "visuals")
             elif data_type == "OCCLUSION":
@@ -226,10 +215,7 @@ class DataWriter:
             image_data = image_data.astype(np.uint8)
             img = Image.fromarray(image_data, "L")
         elif img_type == "DEPTH":
-            # image_data = image_data * 100 # get depth np.array # original
             image_data = image_data * 1000 # converty to mm
-            # print("depth data")
-            # print(np.min(image_data), np.max(image_data))
             depth_img = image_data.copy().astype("int32")
             image_data = normalize_greyscale_image(image_data)
 

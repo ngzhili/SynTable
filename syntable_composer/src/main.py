@@ -1,12 +1,3 @@
-# Copyright (c) 2021, NVIDIA CORPORATION.  All rights reserved.
-#
-# NVIDIA CORPORATION and itslicensors retain all intellectual property
-# and proprietary rights in and to this software, related documentation
-# and any modifications thereto.  Any use, reproduction, disclosure or
-# distribution of this software and related documentation without an express
-# license agreement from NVIDIA CORPORATION is strictly prohibited.
-
-
 import argparse
 import os
 import shutil
@@ -15,8 +6,8 @@ import sys
 
 from omni.isaac.kit import SimulationApp
 
-config1 = {"headless": False} # zhili added: to display gui when generating scenes and dataset
-kit = SimulationApp(config1) # minghao added
+config1 = {"headless": False}
+kit = SimulationApp(config1)
 
 from distributions import Distribution
 from input import Parser
@@ -50,8 +41,8 @@ class Composer:
         else:
             config["renderer"] = "RayTracedLighting"
 
-        #self.sim_app = SimulationApp(config) # minghao commented
-        self.sim_app = kit # zhili added
+        #self.sim_app = SimulationApp(config)
+        self.sim_app = kit
 
         from omni.isaac.core import SimulationContext
 

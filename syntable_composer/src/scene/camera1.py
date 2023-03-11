@@ -1,10 +1,3 @@
-# Copyright (c) 2021, NVIDIA CORPORATION.  All rights reserved.
-#
-# NVIDIA CORPORATION and its licensors retain all intellectual property
-# and proprietary rights in and to this software, related documentation
-# and any modifications thereto.  Any use, reproduction, disclosure or
-# distribution of this software and related documentation without an express
-# license agreement from NVIDIA CORPORATION is strictly prohibited.
 
 import math
 import numpy as np
@@ -233,25 +226,13 @@ class Camera(Asset):
 
         return cam_intrinsics
     
-    # zhili added
     def print_instance_attributes(self):
         for attribute, value in self.__dict__.items():
             print(attribute, '=', value)
     
     def translate_rotate(self,target=(0,0,0)):
         """ Translate each camera asset. Find stereo positions, if needed. """
-
-        # self.coord = coord
-
-        # if self.sample("stereo"):
-        #     self.coords = self.get_stereo_coords(self.coord, self.rotation)
-        # else:
-        #     self.coords = [self.coord]
-
         for i, camera in enumerate(self.cameras):
             viewport_name, viewport_window = self.viewports[i]
-            # viewport_window.set_camera_position(
-            #     str(camera.GetPath()), self.coords[i][0], self.coords[i][1], self.coords[i][2], True
-            # )
             viewport_window.set_camera_target(str(camera.GetPath()), target[0], target[1], target[2], True)
 

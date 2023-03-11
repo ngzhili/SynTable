@@ -1,11 +1,3 @@
-# Copyright (c) 2021, NVIDIA CORPORATION.  All rights reserved.
-#
-# NVIDIA CORPORATION and its licensors retain all intellectual property
-# and proprietary rights in and to this software, related documentation
-# and any modifications thereto.  Any use, reproduction, disclosure or
-# distribution of this software and related documentation without an express
-# license agreement from NVIDIA CORPORATION is strictly prohibited.
-
 import copy
 import numpy as np
 
@@ -123,11 +115,7 @@ class OutputManager:
             # Collect Groundtruth
             self.sim_context.render()
             self.sim_context.render()
-            gt = copy.deepcopy(self.sd_helper.get_groundtruth(self.gt_list, viewport_window, wait_for_sensor_data=0.2))
-
-            # zhili added
-            print("groundtruth")
-            print(gt)            
+            gt = copy.deepcopy(self.sd_helper.get_groundtruth(self.gt_list, viewport_window, wait_for_sensor_data=0.2))       
 
             # RGB
             if "rgb" in gt["state"]:
@@ -160,12 +148,6 @@ class OutputManager:
                     groundtruth["METADATA"]["INSTANCE"]["HEIGHT"] = instance_data.shape[0]
                     groundtruth["METADATA"]["INSTANCE"]["COLORIZE"] = self.groundtruth_visuals
                     groundtruth["METADATA"]["INSTANCE"]["NPY"] = True
-                    
-                    # zhili added
-                    #print("gt", gt)
-                    #print("instance_data:", instance_data)
-                    #print("groundtruth:", groundtruth)
-
 
                 # Semantic Segmentation
                 if "semanticSegmentation" in gt["state"]:

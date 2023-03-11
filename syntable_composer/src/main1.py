@@ -1,14 +1,8 @@
-# Copyright (c) 2021, NVIDIA CORPORATION.  All rights reserved.
-#
-# NVIDIA CORPORATION and itslicensors retain all intellectual property
-# and proprietary rights in and to this software, related documentation
-# and any modifications thereto.  Any use, reproduction, disclosure or
-# distribution of this software and related documentation without an express
-# license agreement from NVIDIA CORPORATION is strictly prohibited.
 """
-Zhili's Replicator Composer Main
+SynTable Replicator Composer Main
 """
 
+# import dependencies
 import argparse
 from ntpath import join
 import os
@@ -26,21 +20,17 @@ import glob
 import cv2
 
 from omni.isaac.kit import SimulationApp
-# config1 = {"headless": False} # to display gui when generating scenes and dataset
-# config1["renderer"] = "PathTracing" # enable path tracing
-# config1["samples_per_pixel_per_frame"] = 32
-# kit = SimulationApp(config1)
-
 from distributions import Distribution
 from input.parse1 import Parser
 from output import Metrics, Logger
 from output.output1 import OutputManager
-# from sampling import Sampler
 from sampling.sample1 import Sampler
 from scene.scene1 import SceneManager
 from helper_functions import compute_occluded_masks
 from omni.isaac.kit.utils import set_carb_setting
+from omni.isaac.core.utils import prims
 from scene.light1 import Light
+
 
 class Composer:
     def __init__(self, params, index, output_dir):
@@ -69,7 +59,6 @@ class Composer:
             config["renderer"] = "RayTracedLighting"
 
         self.sim_app = SimulationApp(config)
-        # self.sim_app = kit # zhili added
 
         from omni.isaac.core import SimulationContext
 
@@ -105,20 +94,20 @@ class Composer:
         amodal = True
         self.scene_manager.prepare_scene(self.index)
 
-        # reload table
+        # reload table into scene
         self.scene_manager.reload_table()
 
         kit = self.sim_app
+        # if generate amodal annotations
         if amodal:
             roomTableSize = self.scene_manager.roomTableSize
             roomTableHeight = roomTableSize[-1]
             spawnLowerBoundOffset = 0.2
             spawnUpperBoundOffset = 1
 
-            # calculate tableBounds to constraint objects' spawn locations
+            # calculate tableBounds to constraint objects' spawn locations to be within tableBounds
             x_width = roomTableSize[0] /2 
             y_length = roomTableSize[1] /2
-            # print(roomTableSize[0],roomTableSize[1],roomTableSize[-1])
             min_val = (-x_width*0.6, -y_length*0.6, roomTableHeight+spawnLowerBoundOffset)
             max_val = (x_width*0.6, y_length*0.6, roomTableHeight+spawnUpperBoundOffset)
             tableBounds = [min_val,max_val]
@@ -138,35 +127,31 @@ class Composer:
                 if step == 0:
                     Logger.print("stepping through scene...")
         
-        # zhili added, iteratively hide objects
+        # if generate amodal annotations
         elif amodal:
-            self.scene_manager.update_scene() # simulate physical dropping of objects
+            # simulate physical dropping of objects
+            self.scene_manager.update_scene() 
+            # refresh UI rendering
             self.sim_context.render()
+            # pause simulation
             self.sim_context.pause()
             
             # stop all object motion and remove objects not on tabletop
             objects = self.scene_manager.objs.copy() 
             objects_filtered = []
-            # print("\nList of objects:",[obj.name for obj in self.scene_manager.objs])
-            # print("Number of Objects:", len(self.scene_manager.objs))
-            
+
+            # remove objects outside tabletop regions after simulation          
             for obj in objects:
                 obj.coord, quaternion = obj.xform_prim.get_world_pose()
                 obj.coord = np.array(obj.coord, dtype=np.float32)
-                # print(f"{obj.name} coord:{obj.coord}")
-                # objMinBounds, objMaxBounds  = obj.get_bounds()
-                # objSize = objMaxBounds - objMinBounds
-                # print(f"{obj.name} size:{objSize}")
 
                 # if object is not on tabletop after simulation, remove object
                 if (abs(obj.coord[0]) > (roomTableSize[0]/2)) \
                     or (abs(obj.coord[1]) > (roomTableSize[1]/2)) \
                     or (abs(obj.coord[2]) < roomTableSize[2]):
-                    # print(f"\nRemoving {obj.name} not on tabletop with coords: {obj.coord}")
+                    # remove object by turning off visibility of object
                     obj.off_prim()
-                    # from omni.isaac.core.utils import prims
-                    # prims.delete_prim(obj.path) # delete prim from scene
-                    # self.scene_manager.objs.remove(obj) # remove from objects
+                # else object on tabletop, add obj to filtered list
                 else:
                     objects_filtered.append(obj)
             
@@ -179,14 +164,9 @@ class Composer:
                 return None, img_index, ann_index, img_list, ann_list, regen_scene 
             else:
                 regen_scene = False
-            # print("\nList of objects:",[obj.name for obj in self.scene_manager.objs])
             print("\nNumber of Objects on tabletop:", len(self.scene_manager.objs))
-            # print('\n\nScene Manager:\n')
-            # print(self.scene_manager.print_instance_attributes())
-            # print('\n\nCamera:\n')
-            # print(self.scene_manager.camera.print_instance_attributes())
             
-            # create camera orbit
+            # get camera coordinates based on hemisphere of radus r and tabletop height
             def camera_orbit_coord(r = 12, tableTopHeight=10):
                 """
                 constraints camera loc to a hemi-spherical orbit around tabletop origin
@@ -224,57 +204,41 @@ class Composer:
             print(f"lightHemisphereRadiusMin = {lightHemisphereRadiusMin}")
             print(f"lightHemisphereRadiusMax = {lightHemisphereRadiusMax}")
 
-            # set_carb_setting(kit._carb_settings, rtx_mode + "/sceneDb/ambientLightIntensity", 0)
-
             Logger.print(f"\n=== Capturing Groundtruth for each viewport in scene ===\n")
             for view_id in range(numViews):
                 random.seed(None)
                 Logger.print(f"\n==> Scene: {self.index}, View: {view_id} <==\n")
+                # resample radius of camera hemisphere between min and max radii bounds
                 r = random.uniform(camHemisphereRadiusMin,camHemisphereRadiusMax)
                 print('sampled radius r of camera hemisphere:',r)
-                # Resample camera coordinates and rotate to look at tabletop surface center
+
+                # resample camera coordinates and rotate camera to look at tabletop surface center
                 cam_coord_w = camera_orbit_coord(r=r,tableTopHeight=roomTableHeight+0.2)
                 print("sampled camera coordinate:",cam_coord_w)
                 self.scene_manager.camera.translate(cam_coord_w)
                 self.scene_manager.camera.translate_rotate(target=(0,0,roomTableHeight)) #target coordinates
-                # cam_coord = self.scene_manager.camera.coords[0]
-                # cam_coord , quaternion = self.scene_manager.camera.xform_prim.get_world_pose()
-                # cam_coord = np.array(cam_coord, dtype=np.float32)
-                # from omni.isaac.core.utils.rotations import quat_to_euler_angles
-                # cam_rot = np.degrees(quat_to_euler_angles(quaternion))
 
-
+                # initialise ambient lighting as 0 (for ray tracing), path tracing not affected
                 rtx_mode = "/rtx"
                 ambient_light_intensity = 0 #random.uniform(0.2,3.5)
                 set_carb_setting(kit._carb_settings, rtx_mode + "/sceneDb/ambientLightIntensity", ambient_light_intensity)
-                # print(f"Ambient Light Intensity:{ambient_light_intensity}")
-                
-                # Enable indirect diffuse GI
+
+                # Enable indirect diffuse GI (for ray tracing)
                 set_carb_setting(kit._carb_settings, rtx_mode + "/indirectDiffuse/enabled", True)
                 
                 # Reset and delete all lights
-                from omni.isaac.core.utils import prims
-                # print("self.scene_manager.lights",self.scene_manager.lights)
                 for light in self.scene_manager.lights:
                     prims.delete_prim(light.path)
                 
-                # print("self.scene_manager.ceilinglights",self.scene_manager.ceilinglights)
-                # for light in self.scene_manager.ceilinglights:
-                #     # print(light.path)
-                #     prims.delete_prim(light.path)
 
                 # Resample number of lights in viewport
-                # print(f"\nResampling Lights in Scene:\n")
                 self.scene_manager.lights = []
-                # self.scene_manager.ceilinglights = []
                 for grp_index, group in enumerate(self.scene_manager.sample("groups")):
-                    # print("group:",group)
+                    # adjust ceiling light parameters
                     if group == "ceilinglights":
-                        # num_lights = self.scene_manager.sample("light_count", group=group)
-                        # for i in range(num_lights):
+                      
                         for lightIndex, light in enumerate(self.scene_manager.ceilinglights):
-                            # path = "{}/Ceilinglights/ceilinglights_{}".format(self.scene_manager.scene_path, len(self.scene_manager.ceilinglights))
-                            # light = Light(self.scene_manager.sim_app, self.scene_manager.sim_context, path, self.scene_manager.camera, group)
+                            
                             if lightIndex == 0:
                                 new_intensity = light.sample("light_intensity")
                                 if light.sample("light_temp_enabled"):
@@ -283,23 +247,13 @@ class Composer:
                             # change light intensity
                             light.attributes["intensity"] = new_intensity
                             light.prim.GetAttribute("intensity").Set(light.attributes["intensity"])
-                            # print("Ceiling Light Intensity:",light.attributes["intensity"])
-                            
+
                             # change light temperature
                             if light.sample("light_temp_enabled"):
                                 light.attributes["colorTemperature"] = new_temp
                                 light.prim.GetAttribute("colorTemperature").Set(light.attributes["colorTemperature"])
-                            #     print("Ceiling Light Temperature (Kelvins):",light.attributes["colorTemperature"])
-                            # print("Ceiling Light Coords:",light.coord)
-                            # print("\n")
-
-                            # self.scene_manager.ceilinglights.append(light)
-
-                            # rtx_mode = "/rtx"
-                            # ambient_light_intensity = 0 #random.uniform(0.2,3.5)
-                            # set_carb_setting(kit._carb_settings, rtx_mode + "/sceneDb/ambientLightIntensity", ambient_light_intensity)
-                            # print(f"Ambient Light Intensity:{ambient_light_intensity}")
-
+                    
+                    # adjust spherical light parameters
                     if group == "lights":
                         num_lights = self.scene_manager.sample("light_count", group=group)
                         for i in range(num_lights):
@@ -309,31 +263,22 @@ class Composer:
                             # change light intensity
                             light.attributes["intensity"] = light.sample("light_intensity")
                             light.prim.GetAttribute("intensity").Set(light.attributes["intensity"])
-                            # print("Light Intensity:",light.attributes["intensity"])
                             
                             # change light temperature
                             if light.sample("light_temp_enabled"):
                                 light.attributes["colorTemperature"] =light.sample("light_temp")
                                 light.prim.GetAttribute("colorTemperature").Set(light.attributes["colorTemperature"])
-                                # print("Light Temperature (Kelvins):",light.attributes["colorTemperature"])
                             
                             # change light coordinates
                             light_coord_w = camera_orbit_coord(r=random.uniform(lightHemisphereRadiusMin,lightHemisphereRadiusMax),tableTopHeight=roomTableHeight+0.2)
                             light.translate(light_coord_w)
                             light.coord, quaternion = light.xform_prim.get_world_pose()
-
-                            # from omni.isaac.core.utils import rotations
-                            # print(rotations.quat_to_euler_angles(quaternion, degrees = True))
-                            # print(quaternion)
-
                             light.coord = np.array(light.coord, dtype=np.float32)
-                            # print("Light Coords:",light.coord)
-                            # print("\n")
-
                             self.scene_manager.lights.append(light)
+
                         print(f"Number of sphere lights in scene: {len(self.scene_manager.lights)}")
 
-                # capture groundtruth of entire scene
+                # capture groundtruth of entire viewpoint
                 groundtruth, img_index, ann_index, img_list, ann_list = \
                     self.output_manager.capture_amodal_groundtruth(self.index, 
                                                                self.scene_manager,
@@ -344,7 +289,8 @@ class Composer:
         else:
             self.scene_manager.update_scene()
             groundtruth = self.output_manager.capture_groundtruth(self.index)
-
+        
+        # finish the scene and reset prims in scene
         self.scene_manager.finish_scene()
 
         return groundtruth, img_index, ann_index, img_list, ann_list, regen_scene
@@ -384,8 +330,8 @@ class Composer:
 
 
 def get_output_dir(params):
-    """ Determine output directory. """
-
+    """ Determine output directory to store datasets. 
+    """
     if params["output_dir"].startswith("/"):
         output_dir = params["output_dir"]
     elif params["output_dir"].startswith("*"):
@@ -414,15 +360,6 @@ def get_starting_index(params, output_dir):
             return indices[-1]
         else:
             return -1
-    # def find_min_missing(indices):
-    #     if indices:
-    #         indices.sort()
-    #         for i in range(1,indices[-1]+1):
-    #             if i not in indices:
-    #                 return i
-    #         return indices[-1] + 1
-    #     else:
-    #         return -1
 
     camera_dirs = [os.path.join(output_data_dir, sub_dir) for sub_dir in os.listdir(output_data_dir)]
 
@@ -430,26 +367,18 @@ def get_starting_index(params, output_dir):
     for camera_dir in camera_dirs:
         data_dirs = [os.path.join(camera_dir, sub_dir) for sub_dir in os.listdir(camera_dir)]
         for data_dir in data_dirs:
-            # print(data_dir)
             indices = []
             for filename in os.listdir(data_dir):
-                # print(filename)
                 try:
                     if "_" in filename:
                         index = int(filename[: filename.rfind("_")])
-                        # print("_",index)
                     else:
                         index = int(filename[: filename.rfind(".")])
-                        # print(".",index)
                     indices.append(index)
                 except:
                     pass
-            
-            # print("indices",indices)
             min_index = find_min_missing(indices)
-            # print("min_index",min_index)
             min_indices.append(min_index)
-    # print("min_indices", min_indices)
 
     if min_indices:
         minest_index = min(min_indices)
@@ -470,13 +399,7 @@ def assert_dataset_complete(params, index):
     else:
         print("Starting at index ", index)
 
-import sys
-def sizeof_fmt(num, suffix='B'):
-    for unit in ['','Ki','Mi','Gi','Ti','Pi','Ei','Zi']:
-        if abs(num) < 1024.0:
-            return "%3.1f %s%s" % (num, unit, suffix)
-        num /= 1024.0
-    return "%.1f %s%s" % (num, 'Yi', suffix)
+
 
 def define_arguments():
     """ Define command line arguments. """
@@ -558,14 +481,12 @@ if __name__ == "__main__":
                         last_scene_index = json_index
                         last_json_path = os.path.join(output_dir,i)
 
-            index = last_scene_index + 1 # get current index
+            # get current index
+            index = last_scene_index + 1 
             # read latest json file
             f = open(last_json_path)
             data = json.load(f)
 
-            # last_img_index = -1
-            # for i in data['images']:
-            #     last_img_index = max(last_img_index, int(i['id']))
             last_img_index = max(data['images'][-1]['id'],-1)
             last_ann_index = max(data['annotations'][-1]['id'],-1)
             f.close()
@@ -584,16 +505,6 @@ if __name__ == "__main__":
 
     # Check if dataset is already complete
     assert_dataset_complete(params, index)
-    
-    # start simulation app
-    # config1 = {"headless": False} # to display gui when generating scenes and dataset
-    # if params["path_tracing"]:
-    #     config1["renderer"] = "PathTracing"
-    #     config1["samples_per_pixel_per_frame"] = sample("samples_per_pixel_per_frame")
-    # else:
-    #     config1["renderer"] = "RayTracedLighting"
-    # kit = SimulationApp(config1)
-
 
     # Initialize composer
     composer = Composer(params, index, output_dir)
@@ -612,13 +523,8 @@ if __name__ == "__main__":
         regen_scene = True
         while regen_scene:
             _, img_index, ann_index, img_list, ann_list, regen_scene = composer.generate_scene(img_index, ann_index,img_list,ann_list,regen_scene)
-        # print("\nSize of Variables")
-        # for name, size in sorted(((name, sys.getsizeof(value)) for name, value in locals().items()),
-        #                  key= lambda x: -x[1])[:]:#10]:
-        #     print("{:>30}: {:>8}".format(name, sizeof_fmt(size)))
 
         # remove all images not are not saved in json/csv
-
         scene_no = composer.index
         if (scene_no % params["checkpoint_interval"]) == 0 and (scene_no != 0): # save every 2 generated scenes
             gc.collect() # Force the garbage collector for releasing an unreferenced memory
@@ -627,11 +533,11 @@ if __name__ == "__main__":
             # create annotation file
             coco_json = {
             "info": {
-                "description": "Unseen Object Amodal Instance Segmentation NVIDIA Synthetic Dataset ",
+                "description": "SynTable",
                 "url": "nil",
                 "version": "0.1.0",
                 "year": 2022,
-                "contributor": "Ng Zhili",
+                "contributor": "SynTable",
                 "date_created": date_created
             },
             "licenses": [
@@ -659,13 +565,6 @@ if __name__ == "__main__":
                     "supercategory": "shape"
                 })
             
-            # remove previous checkpoint json
-            # files_in_directory = os.listdir(output_dir)
-            # for file in files_in_directory:
-            #     if file.endswith(".json"):
-            #         path_to_file = os.path.join(output_dir, file)
-            #         os.remove(path_to_file)
-
             # save annotation dict
             with open(f'{output_dir}/annotation_{scene_no}.json', 'w') as write_file:
                 json.dump(coco_json, write_file, indent=4)
@@ -688,11 +587,11 @@ if __name__ == "__main__":
     # create annotation file
     coco_json = {
     "info": {
-        "description": "Unseen Object Amodal Instance Segmentation NVIDIA Synthetic Dataset ",
+        "description": "SynTable",
         "url": "nil",
         "version": "0.1.0",
         "year": 2022,
-        "contributor": "Ng Zhili",
+        "contributor": "SynTable",
         "date_created": date_created
     },
     "licenses": [
@@ -720,23 +619,16 @@ if __name__ == "__main__":
             "supercategory": "shape"
         })
 
-    # remove previous checkpoint json
-    # files_in_directory = os.listdir(output_dir)
-    # for file in files_in_directory:
-    #     if file.endswith(".json"):
-    #         path_to_file = os.path.join(output_dir, file)
-    #         os.remove(path_to_file)
-
     # save json
     with open(f'{output_dir}/annotation_{scene_no}.json', 'w') as write_file:
         json.dump(coco_json, write_file, indent=4)
     print(f"\n[End] Finished last scene {scene_no}, saving annotations to {output_dir}/annotation_{scene_no}.json")
     
-    # reset lists to prevent memory error
+    # reset lists to prevent out of memory (oom) error 
     del img_list
     del ann_list
     del coco_json
-    gc.collect()
+    gc.collect() # Force the garbage collector for releasing an unreferenced memory
 
     elapsed_time = time.time() - total_st
     print(f'\nExecution time for all {params["num_scenes"]} scenes * {params["num_views"]} views:', time.strftime("%H:%M:%S", time.gmtime(elapsed_time)))
@@ -862,111 +754,3 @@ if __name__ == "__main__":
                     vis_img = cv2.addWeighted(overlay, alpha, vis_img, 1 - alpha, 0, vis_img)        
                     vis_save_path = f"{vis_instance_dir}/{scene_index}_{view_id}.png"
                     cv2.imwrite(vis_save_path,vis_img)
-
-    """
-    # generate occlusion masks
-    print("[INFO] Generating occlusion masks...")
-    rgb_dir = f"{output_dir}/data/mono/rgb"
-    rgb_occ_dir = f"{output_dir}/data/mono/rgb_occ_dir"
-    semantic_dir = f"{output_dir}/data/mono/semantic"
-    occlusion_dir = f"{output_dir}/data/mono/occlusion"
-    occlusion_vis_dir = f"{occlusion_dir}/visualize"
-
-    # make directory
-    for dir in [rgb_occ_dir,occlusion_dir,occlusion_vis_dir]:
-        if not os.path.exists(dir):
-            os.makedirs(dir)
-
-    import glob
-    import cv2
-    import numpy as np
-
-    # iterate through scenes
-    for scene_index in range(params["num_scenes"]):
-        rgb_img = cv2.imread(f"{rgb_dir}/{scene_index}.png", cv2.IMREAD_UNCHANGED)
-        occ_index = 1
-        img_list = glob.glob(f"{semantic_dir}/{scene_index}*.png")
-        
-        # remove completely occluded objects by comparing amodal masks. 
-        # if an amodal mask i is completely contained within another amodal mask j then, then the object i is considered completely occluded
-        # remove compfinish_scene
-        # remove duplicated occluded masks by storing mask index in a set or dictionary
-
-        n = len(img_list) # number of objects
-
-        if n > 0:
-            for i in range(n):
-                path1 = img_list[i]
-                mask1 = cv2.imread(path1, cv2.IMREAD_UNCHANGED)
-                for j in range(i,n):
-                    if i == j:
-                        pass
-                    else:
-                        path2 = img_list[j]
-                        mask2 = cv2.imread(path2, cv2.IMREAD_UNCHANGED)
-                        iou, intersection_mask = compute_occluded_masks(mask1, mask2)
-                        # add occluded masks to image
-                        if iou > 0: # occlusion detected
-                            save_path = f"{occlusion_dir}/{scene_index}_{occ_index}.png"
-                            cv2.imwrite(save_path,intersection_mask)
-                            
-                            save_path = f"{occlusion_vis_dir}/{scene_index}_{occ_index}.png"
-                            cv2.imwrite(save_path,intersection_mask* 255)
-                            
-                            # visulize occlusion masks on rgb image
-                            red = np.ones(intersection_mask.shape)
-                            red = red*255
-                            rgb_img[:,:,0][intersection_mask>0] = red[intersection_mask>0]
-                            occ_index += 1
-        
-        save_path = f"{rgb_occ_dir}/{scene_index}.png"
-        cv2.imwrite(save_path,rgb_img)
-
-        # visulize occlusion masks on rgb image
-            #red = np.ones(occ_mask.shape)
-            #red = red*255
-            #curr_rgb_img[:,:,0][occ_mask>0] = red[occ_mask>0]
-            # occ_mask_3c = np.stack((occ_mask,)*3, -1)
-            # colour = np.array(list(np.random.choice(range(256), size=3)))
-            # rows, cols = np.where(occ_mask_3c[:,:,1]==1)
-            # occ_mask_3c[rows,cols,:] = colour
-            # occ_mask_list.append(occ_mask_3c)
-            
-            # combined_mask = np.zeros(occ_mask_3c.shape)
-            # for i in occ_mask_list:
-            #     combined_mask += i
-
-            # combined_mask = combined_mask.astype('uint8')
-
-            # alpha =0.5
-            # vis_img = cv2.addWeighted(curr_rgb_img, alpha, combined_mask, 1 - alpha, 0)
-            # occ_save_path = f"{vis_occ_dir}/{scene_index}.png"
-            # cv2.imwrite(occ_save_path, vis_img)
-
-                                    # visulize occlusion masks on rgb image
-                #red = np.ones(vis_mask.shape)
-                #red = red*255
-                #curr_rgb_img[:,:,0][vis_mask>0] = red[vis_mask>0]
-
-
-                # visualize occlusion masks on rgb
-                # visible_mask_3c = np.stack((vis_mask,)*3, -1)
-                # colour = np.array(list(np.random.choice(range(256), size=3)))
-                # rows, cols = np.where(visible_mask_3c[:,:,1]==1)
-                # visible_mask_3c[rows,cols,:] = colour
-                # vis_mask_list.append(visible_mask_3c)
-            # combined_mask = np.zeros(visible_mask_3c.shape)
-            # for i in vis_mask_list:
-            #     combined_mask += i
-            # combined_mask = combined_mask.astype('uint8')
-            # alpha =0.5
-            # vis_img = cv2.addWeighted(curr_rgb_img, alpha, combined_mask, 1 - alpha, 0)
-            # vis_save_path = f"{vis_instance_dir}/{scene_index}.png"
-            # cv2.imwrite(vis_save_path,vis_img)
-
-            
-    """
-
-    """
-    ./python1.sh tools/composer/src/main1.py --input */parameters/uoais.yaml --output */dataset/scenario_room --mount /home/knowledge/zhili --num_scenes 1 --overwrite
-    """

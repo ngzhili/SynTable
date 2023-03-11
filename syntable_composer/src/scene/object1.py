@@ -1,11 +1,3 @@
-# Copyright (c) 2021, NVIDIA CORPORATION.  All rights reserved.
-#
-# NVIDIA CORPORATION and its licensors retain all intellectual property
-# and proprietary rights in and to this software, related documentation
-# and any modifications thereto.  Any use, reproduction, disclosure or
-# distribution of this software and related documentation without an express
-# license agreement from NVIDIA CORPORATION is strictly prohibited.
-
 import numpy as np
 import os
 
@@ -227,7 +219,6 @@ class Object(Asset):
         mass_api.CreateMassAttr(1)
         self.physics = True
 
-    # zhili added
     def print_instance_attributes(self):
         for attribute, value in self.__dict__.items():
             print(attribute, '=', value)

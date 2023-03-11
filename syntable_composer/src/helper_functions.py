@@ -1,14 +1,15 @@
 """
-Zhili's Replicator Composer Helper Functions
+SynTable Replicator Composer Helper Functions
 """
 
 import numpy as np
+import pycocotools.mask as mask_util
+import cv2
 
 def compute_occluded_masks(mask1, mask2):
     """Computes occlusions between two sets of masks.
     masks1, masks2: [Height, Width, instances]
     """
-
     # intersections and union
     mask1_area = np.count_nonzero(mask1)
     mask2_area = np.count_nonzero(mask2)
@@ -17,11 +18,6 @@ def compute_occluded_masks(mask1, mask2):
     iou = intersection/(mask1_area+mask2_area-intersection)
 
     return iou, intersection_mask.astype(float)
-
-
-import pycocotools.mask as mask_util
-import cv2
-
 
 class GenericMask:
     """
@@ -109,13 +105,9 @@ class GenericMask:
 
     def bbox(self):
         try:
-            # print(self.polygons)
             p = mask_util.frPyObjects(self.polygons, self.height, self.width)
-            # print(p)
             p = mask_util.merge(p)
-            # print(p)
             bbox = mask_util.toBbox(p)
-            # print(bbox)
             bbox[2] += bbox[0]
             bbox[3] += bbox[1]
         except:
@@ -124,9 +116,6 @@ class GenericMask:
 
             bbox = np.array([0,0,0,0])
         return bbox
-
-
-
 
 def bbox_from_binary_mask(binary_mask):
     """ Returns the smallest bounding box containing all pixels marked "1" in the given image mask.
@@ -143,46 +132,3 @@ def bbox_from_binary_mask(binary_mask):
     h = rmax - rmin + 1
     w = cmax - cmin + 1
     return [int(cmin), int(rmin), int(w), int(h)]
-
-# def camera_orbit_coord(r = 12,z = 10):
-#     """
-#     constraints camera loc to a circular orbit around world origin
-#     """
-#     circle_x,circle_y = 0,0
-#     a = random.uniform(0,2 * math.pi)
-#     x = r * math.cos(a) + circle_x
-#     y = r * math.sin(a) + circle_y
-#     return np.array([x,y,z])
-
-# def normalize(Vector):
-#     return Vector / np.linalg.norm(Vector)
-# def camera_orbit_rot(cam_coord_w, target_coord_w=np.array([0,0,8])):
-#     """
-#     constraints camera pose to lookat world origin
-#     """
-#     forwardVector = cam_coord_w - target_coord_w
-#     forwardVector = normalize(forwardVector) #normalize
-
-#     tempUpVector = np.array([0,1,0])
-#     rightVector = np.cross(tempUpVector,forwardVector)
-#     rightVector = normalize(rightVector)
-
-#     upVector = np.cross(forwardVector,rightVector)
-#     upVector = normalize(upVector)
-
-#     # all 3 vectors are orthonormal
-#     translationX = np.dot(cam_coord_w, rightVector)
-#     translationY = np.dot(cam_coord_w, upVector)
-#     translationZ = np.dot(cam_coord_w, forwardVector)
-
-#     # build transformation matrix (Lookat matrix), transform from world-space to camera-space
-#     lookAt = np.array([[rightVector[0],rightVector[1],rightVector[2],translationX],
-#                         [upVector[0],upVector[1],upVector[2],translationY],
-#                         [forwardVector[0],forwardVector[1],forwardVector[2],translationZ],
-#                         [0,0,0,1]                                 
-#                         ])
-
-#     # x = random.uniform(-20,-40)
-#     # y = 0
-#     # z = 0 
-#     return np.array([translationX,translationY,translationZ])

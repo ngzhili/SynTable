@@ -1,11 +1,3 @@
-# Copyright (c) 2021, NVIDIA CORPORATION.  All rights reserved.
-#
-# NVIDIA CORPORATION and its licensors retain all intellectual property
-# and proprietary rights in and to this software, related documentation
-# and any modifications thereto.  Any use, reproduction, disclosure or
-# distribution of this software and related documentation without an express
-# license agreement from NVIDIA CORPORATION is strictly prohibited.
-
 import time
 import numpy as np
 from random import randint
@@ -79,64 +71,13 @@ class SceneManager:
             ref = self.sample("nucleus_server") + self.sample("obj_model", group=group)                
             obj = RoomTable(self.sim_app, self.sim_context, ref, path, "obj", self.camera, group=group)          
             roomTableMinBounds, roomTableMaxBounds  = obj.get_bounds()
-            # print("table_size:",table_size)
+
             roomTableSize = roomTableMaxBounds - roomTableMinBounds # (x,y,z size of table)
             roomTableHeight = roomTableSize[-1]
             roomTableZCenter = roomTableHeight/2
             obj.translate(np.array([0,0,roomTableZCenter]))
-            # print(f"roomTableHeight:{roomTableHeight}, roomTableZCenter: {roomTableZCenter}")
-            # print(f"RoomTable Dimensions:{roomTableSize}")
-            # print(f"Placing RoomTable at coordinates:{[0,0,roomTableZCenter]}\n")
             self.roomTableSize = roomTableSize
             self.roomTable = obj
-
-            # self.backgroundobjs = []
-            # for grp_index, group in enumerate(self.sample("groups")):
-            #     # if group == "table":
-                   
-            #     if group == "backgroundobject": # generate background objects
-            #         num_objs = self.sample("obj_count", group=group)
-            #         for i in range(num_objs):
-            #             from scene.room_face1 import RoomTable
-            #             path = "{}/Backgroundobjects/backgroundobject_{}".format(self.scene_path, len(self.backgroundobjs))
-            #             ref = self.sample("nucleus_server") + self.sample("obj_model", group=group)                
-            #             obj = RoomTable(self.sim_app, self.sim_context, ref, path, "obj", self.camera, group=group)
-                        
-            #             objMinBounds, objMaxBounds  = obj.get_bounds()
-            #             # print("table_size:",table_size)
-            #             objSize = objMaxBounds - objMinBounds # (x,y,z size of table)
-            #             objX, objY, objHeight = objSize
-            #             objZCenter = objHeight/2
-
-            #             obj_coord, quaternion = obj.xform_prim.get_world_pose()
-
-            #             from omni.isaac.core.utils import rotations
-            #             print(rotations.quat_to_euler_angles(quaternion, degrees = True))
-                        
-            #             roomTableX, roomTableY, _ = self.roomTableSize
-
-            #             #  > abs(roomTableX/2)
-            #             #  > abs(roomTableY/2)
-            #             # x_constraint = 
-            #             # y_constraint = roomTableY/2
-            #             print(objX, objY, objHeight)
-            #             import random
-            #             while True:
-            #                 roomBounds = 15
-            #                 max_x = roomBounds - objX/2
-            #                 max_y = roomBounds - objY/2
-            #                 x =  random.uniform(-max_x,max_x)
-            #                 y =  random.uniform(-max_y,max_y)
-            #                 if (abs(x) > roomTableX/2) and abs(y) > roomTableY/2:
-            #                     break
-                        
-            #             obj.translate(np.array([x,y,objZCenter]))
-                        
-                        
-            #             self.backgroundobjs.append(obj)
-
-
-
 
 
         else:
@@ -202,34 +143,24 @@ class SceneManager:
         self.objs = []
         self.lights = []
         self.ceilinglights = []
-        # self.backgroundobjs = []
         if self.sample("randomise_num_of_objs_in_scene"):
             MaxObjInScene = self.sample("max_obj_in_scene")
             numUniqueObjs = len([i for i in self.sample("groups") if i.lower().startswith("object")])
             ObjNumList = randomNumObjList(numUniqueObjs, MaxObjInScene)
-            # print("Number of objects rendered into scene:",MaxObjInScene)
-            # print("Number of unique objects to choose from:",numUniqueObjs)
-            # print("Count for each object to be rendered into scene:",ObjNumList)
-            # print("\n")
 
         for grp_index, group in enumerate(self.sample("groups")):
-            # Spawn objects
-            # print("group:",group)
-            
+            # spawn objects to scene
             if group not in ["table","lights","ceilinglights","backgroundobject"]: # do not add Roomtable here
                 if self.sample("randomise_num_of_objs_in_scene"):
                     num_objs = ObjNumList[grp_index] # get number of objects to be generated
                 else:
                     num_objs = self.sample("obj_count", group=group)
-                # print("num_objs:",num_objs)
                 for i in range(num_objs):
                     path = "{}/Objects/object_{}".format(self.scene_path, len(self.objs))
                     ref = self.sample("nucleus_server") + self.sample("obj_model", group=group)                
                     obj = Object(self.sim_app, self.sim_context, ref, path, "obj", self.camera, group,tableBounds=tableBounds)          
                     self.objs.append(obj)
 
-                    #obj.print_instance_attributes()
-                #obj.off_prim()
             elif group == "ceilinglights":
                 # Spawn lights
                 num_lights = self.sample("light_count", group=group)
@@ -237,26 +168,7 @@ class SceneManager:
                     path = "{}/Ceilinglights/ceilinglights_{}".format(self.scene_path, len(self.ceilinglights))
                     light = Light(self.sim_app, self.sim_context, path, self.camera, group)
                     self.ceilinglights.append(light)
-                # col = 1
-                # for row in range(1,num_lights+1 //3):
-                #     for col in range(1,3+1):
-                #         path = "{}/Ceilinglights/ceilinglights_{}".format(self.scene_path, len(self.ceilinglights))
-                #         light = Light(self.sim_app, self.sim_context, path, self.camera, group)
-                #         # change light coordinates
-                #         x_offset = -7.5
-                #         y_offset = -7.5
-                #         x = row * 3.75 + x_offset
-                #         y = col * 3.75 + y_offset
-                #         z = 6
-                #         light_coord_w = [x,y,z]
-                #         light.translate(light_coord_w)
-                #         light.coord, quaternion = light.xform_prim.get_world_pose()
-                #         light.coord = np.array(light.coord, dtype=np.float32)
-                #         print("Light Coords:",light.coord)
-                    
-                    
-                #         self.ceilinglights.append(light)
-            
+
             elif group == "lights":
                 # Spawn lights
                 num_lights = self.sample("light_count", group=group)
@@ -264,7 +176,6 @@ class SceneManager:
                     path = "{}/Lights/lights_{}".format(self.scene_path, len(self.lights))
                     light = Light(self.sim_app, self.sim_context, path, self.camera, group)
                     self.lights.append(light)
-        # print("self.lights",self.lights)
         # Update room
         if self.room:
             self.room.update()
@@ -370,7 +281,6 @@ class SceneManager:
         self.play_frame = False
         Logger.finish_log_entry()
 
-    # zhili added
     def print_instance_attributes(self):
         for attribute, value in self.__dict__.items():
             print(attribute, '=', value)
@@ -388,14 +298,10 @@ class SceneManager:
         ref = self.sample("nucleus_server") + self.sample("obj_model", group=group)                
         obj = RoomTable(self.sim_app, self.sim_context, ref, path, "obj", self.camera, group=group)          
         roomTableMinBounds, roomTableMaxBounds  = obj.get_bounds()
-        # print("table_size:",table_size)
         roomTableSize = roomTableMaxBounds - roomTableMinBounds # (x,y,z size of table)
         roomTableHeight = roomTableSize[-1]
         roomTableZCenter = roomTableHeight/2
         obj.translate(np.array([0,0,roomTableZCenter]))
-        # print(f"roomTableHeight:{roomTableHeight}, roomTableZCenter: {roomTableZCenter}")
-        # print(f"RoomTable Dimensions:{roomTableSize}")
-        # print(f"Placing RoomTable at coordinates:{[0,0,roomTableZCenter]}\n")
         self.roomTableSize = roomTableSize
         self.roomTable = obj
 

@@ -1,10 +1,3 @@
-# Copyright (c) 2021, NVIDIA CORPORATION.  All rights reserved.
-#
-# NVIDIA CORPORATION and its licensors retain all intellectual property
-# and proprietary rights in and to this software, related documentation
-# and any modifications thereto.  Any use, reproduction, disclosure or
-# distribution of this software and related documentation without an express
-# license agreement from NVIDIA CORPORATION is strictly prohibited.
 
 from abc import ABC, abstractmethod
 import math
@@ -114,23 +107,12 @@ class Asset(ABC):
             z = cam_coord[2] + radius * np.sin(rads)
 
             coord = np.array([x, y, z])
-        # elif self.prefix == "obj" and self.group != "table":
-        #     print("elif")
-        #     print("self.concat('coord')",self.concat("coord"))
-        #     coord = self.sample(self.concat("coord"))
-        #     print("coord",coord)
         elif tableBounds:
             coord = self.sample(self.concat("coord"),tableBounds=tableBounds)
-            # print("new coord",coord)
         else:
-            # obj_coord
-            # print("self.concat('coord')",self.concat("coord"))
             coord = self.sample(self.concat("coord"))
-            # print("coord",coord)
 
         pretty_coord = tuple([round(v, 1) for v in coord.tolist()])
-        # Logger.print("adding {} {} at coords{}".format(self.prefix.upper(), self.name, pretty_coord))
-
         return coord
 
     def get_initial_rotation(self):
