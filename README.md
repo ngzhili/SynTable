@@ -76,6 +76,7 @@ cd \home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0\tools
 ![OODAG](./readme_images/OODAG.png) ![OODAG2](./readme_images/OODAG2.png)
 ![OOAM](./readme_images/OOAM.png) 
 
+<!---
 ## MetaGraspNet README
 
 - Conda name：metagraspnet_env，Python version：3.8。
@@ -132,3 +133,4 @@ h5dump models/models_ifl/065/textured.obj.hdf5
 ### Outstanding Issues with Issac Gym
 
 - when I start run Isaac Gym examples (for example joint_monkey.py) use Isaac Gym preview 4/2 version, my computer will automatically restart.
+-->
