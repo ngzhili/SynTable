@@ -38,7 +38,7 @@ cd \home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0\tools
 | ```--output```   | Output directory. Overrides 'output_dir' param.        |
 | ```--num_scenes```  | Number of scenes in dataset. Overrides 'num_scenes' param.       |
 | ```--num_views```  | Number of views to generate per scene. Overrides 'num_views' param.      |
-| ```--save_segmentation```  | Saves visualisation of annotations into output directory. False by default.      |
+| ```--save_segmentation_data```  | Saves visualisation of annotations into output directory. False by default.      |
 
 # **Visualise Annotations**
 (to be filled)
