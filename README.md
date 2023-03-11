@@ -1,4 +1,5 @@
 # SynTable - A Synthetic Data Generation Pipeline for Cluttered Tabletop Scenes
+![teaser](./readme_images/teaser.png)
 
 SynTable is a robust data generation pipeline that creates photorealistic synthetic datasets of Cluttered Tabletop Scenes. It includes 6 DOF grasping annotations, object amodal masks, object visible masks, object invisible masks, object occlusion rate, scene's occlusion ordering adjacency matrix (OOAM) annotations for each scene.
 
