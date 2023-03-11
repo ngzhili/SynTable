@@ -50,7 +50,7 @@ cd /home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.1
 ```
 2. Run Syntable Pipeline
 ``` bash
-./python.sh tools/SynTable/syntable_composer/src/main1.py --input */parameters/train_config_syntable2.yaml --output */dataset/train --mount '/home/<username>/mount_dir' --num_scenes 3 --num_views 3 --overwrite --save_segmentation_data
+./python.sh SynTable/syntable_composer/src/main1.py --input */parameters/train_config_syntable2.yaml --output */dataset/train --mount '/home/<username>/mount_dir' --num_scenes 3 --num_views 3 --overwrite --save_segmentation_data
 ```
 
 ### **Types of Flag**
