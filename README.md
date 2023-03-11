@@ -7,7 +7,7 @@ SynTable is a robust data generation pipeline that creates photorealistic synthe
 # **Installation**
 1. Change Directory to isaac_sim-2022.1.0\tools directory
 ``` bash
-cd '\home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0\tools'
+cd '/home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.0/tools'
 ```
 
 2. Clone the repo 
@@ -17,7 +17,7 @@ git clone https://github.com/ngzhili/SynTable.git
 
 3. Change Directory to isaac_sim-2022.1.0 directory
 ``` bash
-cd '\home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0'
+cd '/home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.0'
 ```
 
 4. Install Dependencies into isaac sim's python
@@ -47,11 +47,11 @@ pip.main(['install'] + package_names + ['--upgrade'])
 
 1. Change Directory to Isaac SIM source code
 ``` bash
-cd \home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0
+cd /home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.0
 ```
 2. Run Syntable Pipeline
 ``` bash
-./python.sh tools/SynTable/syntable_composer/src/main1.py --input */parameters/default1.yaml --output */dataset/train --mount '\home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0\tools\SynTable\mount_dir' --num_scenes 3 --num_views 3 --overwrite --save_segmentation_data
+./python.sh tools/SynTable/syntable_composer/src/main1.py --input */parameters/default1.yaml --output */dataset/train --mount '/home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.0/tools/SynTable/mount_dir' --num_scenes 3 --num_views 3 --overwrite --save_segmentation_data
 ```
 
 ### **Types of Flag**
