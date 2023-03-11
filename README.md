@@ -26,22 +26,22 @@ cd '\home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0'
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 echo $SCRIPT_DIR
 ```
-- Get isaac sim python path
+- Get isaac sim's python path
 ``` bash
 python_exe=${PYTHONEXE:-"${SCRIPT_DIR}/kit/python/bin/python3"}
 echo $python_exe
 ```
-- Run isaac sim python
+- Run isaac sim's python
 ``` bash
 $python_exe
 ```
-- while running isaac sim in bash, install pycocotools and opencv-python into isaac sim python
+- while running isaac sim's python in bash, install pycocotools and opencv-python into isaac sim's python
 ``` bash
 import pip
 package_names=['pycocotools', 'opencv-python'] #packages to install
 pip.main(['install'] + package_names + ['--upgrade'])
 ```
-    
+ 
 
 # **Generate Synthetic Dataset**
 
