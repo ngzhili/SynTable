@@ -6,6 +6,3 @@
 /NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/ArchVis/Residential/Furniture/CoffeeTables/Make.usd
 /NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/ArchVis/Residential/Furniture/DiningSets/EastRural/EastRural_Table.usd
 /NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/ArchVis/Residential/Furniture/FurnitureSets/Appleseed/Appleseed_CoffeeTable.usd
-/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/ArchVis/Residential/Furniture/Outdoors/Dellwood/Dellwood_DiningTable.usd
-/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/ArchVis/Residential/Furniture/Outdoors/Roxana/Roxana_DiningTable.usd
-/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/ArchVis/Residential/Furniture/Outdoors/Roxana/Roxana_CoffeeTable.usd

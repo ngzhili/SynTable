@@ -1,8 +1,11 @@
 
-/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/ArchVis/Commercial/Tables/Willow.usd
-/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/ArchVis/Commercial/Tables/Danny.usd
-/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/ArchVis/Commercial/Tables/OakTableSmall.usd
-/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/ArchVis/Residential/Furniture/CoffeeTables/Midtown.usd
-/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/ArchVis/Residential/Furniture/CoffeeTables/Make.usd
-/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/ArchVis/Residential/Furniture/DiningSets/EastRural/EastRural_Table.usd
-/NVIDIA/Assets/Isaac/2022.1/NVIDIA/Assets/ArchVis/Residential/Furniture/FurnitureSets/Appleseed/Appleseed_CoffeeTable.usd
+/Users/syntable_nucleus/tables/Willow.usd
+/Users/syntable_nucleus/tables/Danny.usd
+/Users/syntable_nucleus/tables/OakTableSmall.usd
+/Users/syntable_nucleus/tables/Midtown.usd
+/Users/syntable_nucleus/tables/Make.usd
+//Users/syntable_nucleus/tables/EastRural_Table.usd
+/Users/syntable_nucleus/tables/Appleseed_CoffeeTable.usd
+/Users/syntable_nucleus/tables/Dellwood_DiningTable.usd
+/Users/syntable_nucleus/tables/Roxana_DiningTable.usd
+/Users/syntable_nucleus/tables/Roxana_CoffeeTable.usd

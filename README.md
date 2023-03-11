@@ -45,7 +45,7 @@ cp -r SynTable/mount_dir /home/<username>
 # **Adding object models to nucleus**
 1. You can download the .USD object models to be used for generating the tabletop datasets [here](https://mega.nz/folder/1nJAwQxA#1P3iUtqENKCS66uQYXk1vg).
 
-2. Move all folders into Omniverse Nucleus.
+2. Upload the downloaded syntable_nucleus folder into Omniverse Nucleus into /Users directory.
 
 3. Ensure that the file paths in the config file are correct before running the generate dataset commands.
 
@@ -58,7 +58,7 @@ cd /home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.1
 ```
 2. Run Syntable Pipeline (non-headless)
 ``` bash
-./python.sh SynTable/syntable_composer/src/main1.py --input */parameters/train_config_syntable2.yaml --output */dataset/train --mount '/home/<username>/mount_dir' --num_scenes 3 --num_views 3 --overwrite --save_segmentation_data
+./python.sh SynTable/syntable_composer/src/main1.py --input */parameters/train_config_syntable1.yaml --output */dataset/train --mount '/home/<username>/mount_dir' --num_scenes 3 --num_views 3 --overwrite --save_segmentation_data
 ```
 
 ### **Types of Flag**
