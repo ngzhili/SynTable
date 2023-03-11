@@ -3,7 +3,7 @@
 Syntable is a robust data generation pipeline that creates photorealistic synthetic datasets of Cluttered Tabletop Scenes. It includes 6 DOF grasping annotations, object amodal masks, object visible masks, object invisible masks, object occlusion rate, scene's occlusion ordering adjacency matrix (OOAM) annotations for each scene.
 
 
-### **Setting up**
+# **Setting up**
 1. Clone the repo 
 ``` bash
 git clone https://github.com/ngzhili/nvidia-isaac-sim-replicator-composer.git
@@ -16,7 +16,7 @@ git clone https://github.com/ngzhili/nvidia-isaac-sim-replicator-composer.git
 
 
 
-### **Generate Synthetic Dataset**
+# **Generate Synthetic Dataset**
 
 1. Change Directory to Isaac SIM source code
 ``` bash
@@ -40,11 +40,11 @@ cd \home\knowledge\.local\share\ov\pkg\isaac_sim-2022.1.0\tools
 | ```--num_views```  | Number of views to generate per scene. Overrides 'num_views' param.      |
 | ```--save_segmentation```  | Saves visualisation of annotations into output directory. False by default.      |
 
-### **Visualise Annotations**
+# **Visualise Annotations**
 (to be filled)
 
 
-### **Sample Annotations**
+# **Sample Annotations**
 ![RGB](./readme_images/RGB.png) 
 ![OODAG](./readme_images/OODAG.png) ![OODAG2](./readme_images/OODAG2.png)
 ![OOAM](./readme_images/OOAM.png) 
