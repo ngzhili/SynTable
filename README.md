@@ -5,9 +5,9 @@ SynTable is a robust data generation pipeline that creates photorealistic synthe
 
 
 # **Installation**
-1. Change Directory to isaac_sim-2022.1.0\tools directory
+1. Change Directory to isaac_sim-2022.1.1 directory
 ``` bash
-cd '/home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.0/tools'
+cd '/home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.1/tools'
 ```
 
 2. Clone the repo 
@@ -15,12 +15,7 @@ cd '/home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.0/tools'
 git clone https://github.com/ngzhili/SynTable.git
 ```
 
-3. Change Directory to isaac_sim-2022.1.0 directory
-``` bash
-cd '/home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.0'
-```
-
-4. Install Dependencies into isaac sim's python
+3. Install Dependencies into isaac sim's python
 - Get issac sim source code directory path in command line.
 ``` bash
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
@@ -41,17 +36,21 @@ import pip
 package_names=['pycocotools', 'opencv-python'] #packages to install
 pip.main(['install'] + package_names + ['--upgrade'])
 ```
- 
+
+4. Copy the mount_dir folder to your home directory (anywhere outside of isaac sim source code)
+``` bash
+cp -r SynTable/mount_dir /home/<username>
+```
 
 # **Generate Synthetic Dataset**
 
 1. Change Directory to Isaac SIM source code
 ``` bash
-cd /home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.0
+cd /home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.1
 ```
 2. Run Syntable Pipeline
 ``` bash
-./python.sh tools/SynTable/syntable_composer/src/main1.py --input */parameters/train_config_syntable2.yaml --output */dataset/train --mount '/home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.0/tools/SynTable/mount_dir' --num_scenes 3 --num_views 3 --overwrite --save_segmentation_data
+./python.sh tools/SynTable/syntable_composer/src/main1.py --input */parameters/train_config_syntable2.yaml --output */dataset/train --mount '/home/<username>/mount_dir' --num_scenes 3 --num_views 3 --overwrite --save_segmentation_data
 ```
 
 ### **Types of Flag**
