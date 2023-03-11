@@ -10390,7 +10390,7 @@ lights:
   light_camera_relative: false
   light_rot: (0, 0, 0)
   light_coord: (0, 0, 15)
-  light_count: 1
+  light_count: Range(0,2)
   light_distance: Uniform(3, 8)
   light_horiz_fov_loc: Uniform(-1, 1)
   light_vert_fov_loc: Uniform(-1, 1)
