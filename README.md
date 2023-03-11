@@ -42,7 +42,15 @@ pip.main(['install'] + package_names + ['--upgrade'])
 cp -r SynTable/mount_dir /home/<username>
 ```
 
+# **Adding object models to nucleus**
+1. You can download the .USD object models to be used for generating the tabletop datasets [here](https://mega.nz/folder/1nJAwQxA#1P3iUtqENKCS66uQYXk1vg).
+
+2. Move all folders into Omniverse Nucleus.
+
+3. Ensure that the file paths in the config file are correct before running the generate dataset commands.
+
 # **Generate Synthetic Dataset**
+Note: Before generating the synthetic dataset, please ensure that you uploaded all object models to isaac sim nucleus and their paths in the config file is correct.
 
 1. Change Directory to Isaac SIM source code
 ``` bash
