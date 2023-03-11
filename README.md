@@ -4,17 +4,44 @@ SynTable is a robust data generation pipeline that creates photorealistic synthe
 
 
 # **Installation**
-1. Clone the repo 
+1. Change Directory to isaac_sim-2022.1.0\tools directory
+``` bash
+cd \home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0\tools
+```
+
+2. Clone the repo 
 ``` bash
 git clone https://github.com/ngzhili/SynTable.git
 ```
 
-2. Move syntable folder into your isaac sim source code under the tools directory (e.g. ```\home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0\tools```)
+3. Change Directory to isaac_sim-2022.1.0 directory
+``` bash
+cd \home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0
+```
 
-3. Install Dependencies into isaac sim's python
+4. Install Dependencies into isaac sim's python
 - Get isaac sim python path
-
-
+    - Get issac sim source code directory path in command line.
+    ``` bash
+    SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+    echo $SCRIPT_DIR
+    ```
+    - Get isaac sim python path
+    ``` bash
+    python_exe=${PYTHONEXE:-"${SCRIPT_DIR}/kit/python/bin/python3"}
+    echo $python_exe
+    ```
+    - Run isaac sim python
+    ``` bash
+    $python_exe
+    ```
+- while running isaac sim in bash, install pycocotools and opencv-python into isaac sim python
+    ``` bash
+    import pip
+    package_names=['pycocotools', 'opencv-python'] #packages to install
+    pip.main(['install'] + package_names + ['--upgrade'])
+    ```
+    
 
 # **Generate Synthetic Dataset**
 
