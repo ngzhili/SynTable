@@ -1,4 +1,4 @@
-# Syntable - A Synthetic Data Generation Pipeline for Cluttered Tabletop Scenes
+# SynTable - A Synthetic Data Generation Pipeline for Cluttered Tabletop Scenes
 
 Syntable is a robust data generation pipeline that creates photorealistic synthetic datasets of Cluttered Tabletop Scenes. It includes 6 DOF grasping annotations, object amodal masks, object visible masks, object invisible masks, object occlusion rate, scene's occlusion ordering adjacency matrix (OOAM) annotations for each scene.
 
@@ -9,9 +9,10 @@ Syntable is a robust data generation pipeline that creates photorealistic synthe
 git clone https://github.com/ngzhili/nvidia-isaac-sim-replicator-composer.git
 ```
 
-2. Move composer1 folder into your isaac sim source code under the tools directory (e.g. ```\home\knowledge\.local\share\ov\pkg\isaac_sim-2022.1.0\tools```)
+2. Move syntable folder into your isaac sim source code under the tools directory (e.g. ```\home\knowledge\.local\share\ov\pkg\isaac_sim-2022.1.0\tools```)
 
-3. Install Dependencies (to be filled)
+3. Install Dependencies
+
 
 
 ### **Generate Synthetic Dataset**
@@ -22,7 +23,7 @@ cd \home\knowledge\.local\share\ov\pkg\isaac_sim-2022.1.0\tools
 ```
 2. Run Syntable Pipeline
 ``` bash
-./python.sh tools/composer1/src/main1.py --input */parameters/default1.yaml --output */dataset/train --mount home/knowledge/zhili --num_scenes 3 --num_views 3 --overwrite --save_segmentation
+./python.sh tools/syntable/src/main1.py --input */parameters/default1.yaml --output */dataset/train --mount home/knowledge/zhili --num_scenes 3 --num_views 3 --overwrite --save_segmentation_data
 ```
 
 ### **Types of Flag**
