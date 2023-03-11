@@ -28,9 +28,7 @@ from sampling.sample1 import Sampler
 from scene.scene1 import SceneManager
 from helper_functions import compute_occluded_masks
 from omni.isaac.kit.utils import set_carb_setting
-from omni.isaac.core.utils import prims
 from scene.light1 import Light
-
 
 class Composer:
     def __init__(self, params, index, output_dir):
@@ -227,10 +225,10 @@ class Composer:
                 set_carb_setting(kit._carb_settings, rtx_mode + "/indirectDiffuse/enabled", True)
                 
                 # Reset and delete all lights
+                from omni.isaac.core.utils import prims
                 for light in self.scene_manager.lights:
                     prims.delete_prim(light.path)
                 
-
                 # Resample number of lights in viewport
                 self.scene_manager.lights = []
                 for grp_index, group in enumerate(self.scene_manager.sample("groups")):
