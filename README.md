@@ -79,7 +79,7 @@ cd /home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.1
 
 
 # **Sample Annotations**
-![teaser](./readme_images/2.png)
+![sample_annotations](./readme_images/2.png)
 <!---![RGB](./readme_images/RGB.png) 
 ![OODAG](./readme_images/OODAG.png) ![OODAG2](./readme_images/OODAG2.png)
 ![OOAM](./readme_images/OOAM.png) -->
