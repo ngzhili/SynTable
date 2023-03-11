@@ -1,7 +1,7 @@
 # SynTable - A Synthetic Data Generation Pipeline for Cluttered Tabletop Scenes
 ![teaser](./readme_images/teaser.png)
 
-SynTable is a robust data generation pipeline that creates photorealistic synthetic datasets of Cluttered Tabletop Scenes. It includes 6 DOF grasping annotations, object amodal masks, object visible masks, object invisible masks, object occlusion rate, scene's occlusion ordering adjacency matrix (OOAM) annotations for each scene.
+SynTable is a robust data generation pipeline that creates photorealistic synthetic datasets of Cluttered Tabletop Scenes. It includes object amodal masks, object modal (visible) masks, object invisible (occlusion) masks, object occlusion rate, object visible bounding box, scene's occlusion ordering adjacency matrix (OOAM) annotations for each scene.
 
 
 # **Installation**
@@ -21,34 +21,33 @@ cd '\home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0'
 ```
 
 4. Install Dependencies into isaac sim's python
-- Get isaac sim python path
-    - Get issac sim source code directory path in command line.
-    ``` bash
-    SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-    echo $SCRIPT_DIR
-    ```
-    - Get isaac sim python path
-    ``` bash
-    python_exe=${PYTHONEXE:-"${SCRIPT_DIR}/kit/python/bin/python3"}
-    echo $python_exe
-    ```
-    - Run isaac sim python
-    ``` bash
-    $python_exe
-    ```
-- while running isaac sim in bash, install pycocotools and opencv-python into isaac sim python
-    ``` bash
-    import pip
-    package_names=['pycocotools', 'opencv-python'] #packages to install
-    pip.main(['install'] + package_names + ['--upgrade'])
-    ```
-    
+- Get issac sim source code directory path in command line.
+``` bash
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+echo $SCRIPT_DIR
+```
+- Get isaac sim's python path
+``` bash
+python_exe=${PYTHONEXE:-"${SCRIPT_DIR}/kit/python/bin/python3"}
+echo $python_exe
+```
+- Run isaac sim's python
+``` bash
+$python_exe
+```
+- while running isaac sim's python in bash, install pycocotools and opencv-python into isaac sim's python
+``` bash
+import pip
+package_names=['pycocotools', 'opencv-python'] #packages to install
+pip.main(['install'] + package_names + ['--upgrade'])
+```
+ 
 
 # **Generate Synthetic Dataset**
 
 1. Change Directory to Isaac SIM source code
 ``` bash
-cd \home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0\tools
+cd \home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0
 ```
 2. Run Syntable Pipeline
 ``` bash
