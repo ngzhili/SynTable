@@ -47,7 +47,7 @@ pip.main(['install'] + package_names + ['--upgrade'])
 
 1. Change Directory to Isaac SIM source code
 ``` bash
-cd \home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0\tools
+cd \home\<username>\.local\share\ov\pkg\isaac_sim-2022.1.0
 ```
 2. Run Syntable Pipeline
 ``` bash
