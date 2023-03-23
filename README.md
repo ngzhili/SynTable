@@ -74,6 +74,27 @@ cd /home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.1
 | ```--num-views```  | Number of views to generate per scene. Overrides 'num_views' param.      |
 | ```--save-segmentation-data```  | Saves visualisation of annotations into output directory. False by default.      |
 
+# **Folder Structure of Generated Synthetic Dataset**
+
+    .
+    ├── ...
+    ├── SynTable-Sim                  # Generated dataset
+    │   ├── data                      # folder to store RGB, Depth, OOAM 
+    │   │   └── mono
+    │   │       ├── rgb
+    │   │       │   ├── 0_0.png 
+    │   │       │   └── 0_1.png 
+    │   │       ├── depth
+    │   │       │   ├── 0_0.png  
+    │   │       │   └── 0_1.png 
+    │   │       └── occlusion order
+    │   │           ├── 0_0.npy  
+    │   │           └── 0_1.npy 
+    │   ├── parameters                # parameters used for generation of annotations
+    │   └── train.json                # Annotation COCO.JSON
+    └── ...
+
+
 # **Visualise Annotations**
 (to be filled)
 
