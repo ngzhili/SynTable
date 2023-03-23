@@ -96,7 +96,7 @@ cd /home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.1
 
 
 # **Visualise Annotations**
-(to be filled)
+(to be updated)
 
 
 # **Sample Annotations**
