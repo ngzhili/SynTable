@@ -82,7 +82,7 @@ cd /home/<username>/.local/share/ov/pkg/isaac_sim-2022.1.1
     │   ├── data                      # folder to store RGB, Depth, OOAM 
     │   │   └── mono
     │   │       ├── rgb
-    │   │       │   ├── 0_0.png 
+    │   │       │   ├── 0_0.png       # file naming convention follows sceneNum_viewNum.png
     │   │       │   └── 0_1.png 
     │   │       ├── depth
     │   │       │   ├── 0_0.png  
