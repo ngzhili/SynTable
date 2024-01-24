@@ -12,7 +12,7 @@ Zhili Ng, Haozhe Wang, Zhengshen Zhang, Francis Eng Hock Tay,  Marcelo H. Ang Jr
 
 SynTable is a robust data generation pipeline that creates photorealistic synthetic datasets of Cluttered Tabletop Scenes. It includes object amodal masks, object modal (visible) masks, object invisible (occlusion) masks, object occlusion rate, object visible bounding box, scene's occlusion ordering adjacency matrix (OOAM) annotations for each scene.
 
-# **Installation**
+## **Installation**
 1. Install [NVIDIA Isaac Sim 2022.1.1 version](https://developer.nvidia.com/isaac-sim) on Omniverse
 
 2. Change Directory to isaac_sim-2022.1.1 directory
@@ -52,14 +52,14 @@ SynTable is a robust data generation pipeline that creates photorealistic synthe
     cp -r SynTable/mount_dir /home/<username>
     ```
 
-# **Adding object models to nucleus**
+## **Adding object models to nucleus**
 1. You can download the .USD object models to be used for generating the tabletop datasets [here](https://mega.nz/folder/1nJAwQxA#1P3iUtqENKCS66uQYXk1vg).
 
 2. Upload the downloaded syntable_nucleus folder into Omniverse Nucleus into /Users directory.
 
 3. Ensure that the file paths in the config file are correct before running the generate dataset commands.
 
-# **Generate Synthetic Dataset**
+## **Generate Synthetic Dataset**
 Note: Before generating the synthetic dataset, please ensure that you uploaded all object models to isaac sim nucleus and their paths in the config file is correct.
 
 1. Change Directory to Isaac SIM source code
@@ -84,7 +84,7 @@ Note: Before generating the synthetic dataset, please ensure that you uploaded a
 | ```--num-views```  | Number of views to generate per scene. Overrides 'num_views' param.      |
 | ```--save-segmentation-data```  | Saves visualisation of annotations into output directory. False by default.      |
 
-# **Folder Structure of Generated Synthetic Dataset**
+## **Folder Structure of Generated Synthetic Dataset**
 
     .
     ├── ...
@@ -105,7 +105,7 @@ Note: Before generating the synthetic dataset, please ensure that you uploaded a
     └── ...
 
 
-# **Visualise Annotations**
+## **Visualise Annotations**
 1. Create python venv and install dependencies
     ```
     python3.8 -m venv env
@@ -117,14 +117,14 @@ Note: Before generating the synthetic dataset, please ensure that you uploaded a
     python ./visualize_annotations.py --dataset './sample_data' --ann_json './sample_data/annotation_final.json'
     ```
 
-# **Sample Visualisation of Annotations**
+## **Sample Visualisation of Annotations**
 ![sample_annotations1](./readme_images/1.png)
 ![sample_annotations2](./readme_images/2.png)
 
-# **References**
+## **References**
 We have heavily modified the Python SDK source code from NVIDA Isaac Sim's Replicator Composer.
 
-# **Citation**
+## **Citation**
 If you find our work useful for your research, please consider citing the following BibTeX entry:
 ```
 @misc{ng2023syntable,
