@@ -106,8 +106,16 @@ Note: Before generating the synthetic dataset, please ensure that you uploaded a
 
 
 # **Visualise Annotations**
-(to be updated)
-
+1. Create python venv and install dependencies
+    ```
+    python3.8 -m venv env
+    source env/bin/activate
+    pip install -r requirements.txt
+    ```
+2. Visualise sample annotations (creates a visualise_dataset directory in dataset directory, then saves annotation visualisations there)
+    ```
+    python ./visualize_annotations.py --dataset './sample_data' --ann_json './sample_data/annotation_final.json'
+    ```
 
 # **Sample Visualisation of Annotations**
 ![sample_annotations1](./readme_images/1.png)

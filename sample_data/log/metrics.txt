@@ -1,0 +1,6 @@
+time_per_sample_first_quartile: 39.05230712890625
+time_per_sample_max: 86.47971868515015
+time_per_sample_mean: 59.219095389048256
+time_per_sample_median: 52.12526035308838
+time_per_sample_min: 39.05230712890625
+time_per_sample_third_quartile: 86.47971868515015
