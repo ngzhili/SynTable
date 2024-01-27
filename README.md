@@ -11,7 +11,18 @@ Zhili Ng, Haozhe Wang, Zhengshen Zhang, Francis Eng Hock Tay,  Marcelo H. Ang Jr
 
 ![teaser](./readme_images/teaser.png)
 
-SynTable is a robust data generation pipeline that creates photorealistic synthetic datasets of Cluttered Tabletop Scenes. It includes object amodal masks, object modal (visible) masks, object invisible (occlusion) masks, object occlusion rate, object visible bounding box, scene's occlusion ordering adjacency matrix (OOAM) annotations for each scene.
+SynTable is a robust data generation pipeline that creates photorealistic synthetic datasets of Cluttered Tabletop Scenes. For each scene, it includes metadata such as 
+- [x] RGB image of scene
+- [x] depth image of Scene
+- [x] object amodal rgb
+- [x] object amodal masks
+- [x] object modal (visible) masks
+- [x] object invisible (occlusion) masks
+- [x] object occlusion rate
+- [x] object visible bounding box
+- [x] tabletop visible masks
+- [x] background visible mask (background excludes tabletop and objects)
+- [x] occlusion ordering adjacency matrix (OOAM) of objects on tabletop
 
 ## **Installation**
 1. Install [NVIDIA Isaac Sim 2022.1.1 version](https://developer.nvidia.com/isaac-sim) on Omniverse
@@ -84,6 +95,9 @@ Note: Before generating the synthetic dataset, please ensure that you uploaded a
 | ```--num-scenes```  | Number of scenes in dataset. Overrides 'num_scenes' param.       |
 | ```--num-views```  | Number of views to generate per scene. Overrides 'num_views' param.      |
 | ```--save-segmentation-data```  | Saves visualisation of annotations into output directory. False by default.      |
+
+## Generated dataset
+- SynTable data generation pipeline generates dataset in COCO - Common Objects in Context format.
 
 ## **Folder Structure of Generated Synthetic Dataset**
 
