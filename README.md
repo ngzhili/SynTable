@@ -14,6 +14,7 @@ Zhili Ng, Haozhe Wang, Zhengshen Zhang, Francis Eng Hock Tay,  Marcelo H. Ang Jr
 SynTable is a robust custom data generation pipeline that creates photorealistic synthetic datasets of Cluttered Tabletop Scenes. For each scene, it includes metadata such as 
 - [x] RGB image of scene
 - [x] depth image of Scene
+- [x] scene instance segmentation masks
 - [x] object amodal (visible + invisible) rgb
 - [x] object amodal (visible + invisible) masks
 - [x] object modal (visible) masks
