@@ -6,7 +6,7 @@ Zhili Ng, Haozhe Wang, Zhengshen Zhang, Francis Eng Hock Tay,  Marcelo H. Ang Jr
 
 [[arXiv]](https://arxiv.org/abs/2307.07333)
 [[Website]](https://sites.google.com/view/syntable/home)
-[[Demo Video]](https://drive.google.com/file/d/1OXqZoYdOmrCAI1u8CukRNusq2CX_ANV_/view)
+[[Demo Video]](https://youtu.be/zHM8H58Kn3E)
 [[Modified UOAIS-v2]](https://github.com/ngzhili/uoais-v2?tab=readme-ov-file)
 
 ![teaser](./readme_images/teaser.png)
