@@ -11,6 +11,8 @@ Zhili Ng*, Haozhe Wang*, Zhengshen Zhang*, Francis Eng Hock Tay,  Marcelo H. Ang
 [[Demo Video]](https://youtu.be/zHM8H58Kn3E)
 [[Modified UOAIS-v2]](https://github.com/ngzhili/uoais-v2?tab=readme-ov-file)
 
+[![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10565517.svg)](https://doi.org/10.5281/zenodo.10565517)
+
 ![teaser](./readme_images/teaser.png)
 
 SynTable is a robust custom data generation pipeline that creates photorealistic synthetic datasets of Cluttered Tabletop Scenes. For each scene, it includes metadata such as 
