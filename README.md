@@ -69,6 +69,9 @@ SynTable is a robust custom data generation pipeline that creates photorealistic
     cp -r SynTable/mount_dir /home/<username>
     ```
 
+## Docker Installation
+Please refer to the [README.docker.md](https://github.com/ngzhili/SynTable/blob/master/README.docker.md).
+
 ## **Adding object models to nucleus**
 1. You can download the .USD object models to be used for generating the tabletop datasets [here](https://mega.nz/folder/1nJAwQxA#1P3iUtqENKCS66uQYXk1vg).
 
