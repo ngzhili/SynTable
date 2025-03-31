@@ -104,6 +104,128 @@ Note: Before generating the synthetic dataset, please ensure that you uploaded a
 | ```--num-views```  | Number of views to generate per scene. Overrides 'num_views' param.      |
 | ```--save-segmentation-data```  | Saves visualisation of annotations into output directory. False by default.      |
 
+Note: To save Object Amodal RGB Instances, set `save_segmentation_data: True` in parameter file.
+
+### Example Parameter (Configuration) File
+
+```
+# Define Objects
+object_1:
+  obj_class_id: 0
+  obj_model: /Users/syntable_nucleus/bop_challenge/hb/models/obj_000001_converted/hb_obj_000001.usd
+  obj_count: 1
+  obj_size_enabled: false
+  obj_scale: 0.001
+  obj_coord_camera_relative: false
+  obj_rot_camera_relative: false
+  obj_coord: Uniform((-4,-2,10), (4,2,15))
+  obj_rot: Uniform((0, 0, 0), (360, 360, 360))
+  obj_physics: true
+
+object_2:
+    ...
+
+# Define Room Ceiling Light Configuration 
+ceilinglights:
+  light_intensity: Uniform(100,1500)
+  light_radius: 15
+  light_color: (255, 255, 255)
+  light_temp_enabled: false
+  light_temp: Uniform(2000,6500)
+  light_directed: true
+  light_directed_focus: 20
+  light_directed_focus_softness: 0
+  light_height: 15
+  light_width: 15
+  light_distant: false
+  light_camera_relative: false
+  light_rot: (0, 0, 0)
+  light_coord: (0, 0, 5)
+  light_count: 1
+  light_distance: Uniform(3, 8)
+  light_coord_camera_relative: false
+  light_rot_camera_relative: false
+  light_vel: (0, 0, 0)
+  light_rot_vel: (0, 0, 0)
+  light_accel: (0, 0, 0)
+  light_rot_accel: (0, 0, 0)
+  light_movement_light_relative: false
+
+# Define Source Light Configuration
+lights:
+  light_intensity: Uniform(0,30000)
+  light_radius: Uniform(0.3,0.7)
+  light_color: (255, 255, 255)
+  light_temp_enabled: false
+  light_temp: Uniform(2000,6500)
+  light_directed: false
+  light_directed_focus: 20
+  light_directed_focus_softness: 0
+  light_distant: false
+  light_camera_relative: false
+  light_rot: (0, 0, 0)
+  light_coord: (0, 0, 15)
+  light_count: 1
+  light_distance: Uniform(3, 8)
+  light_horiz_fov_loc: Uniform(-1, 1)
+  light_vert_fov_loc: Uniform(-1, 1)
+  light_coord_camera_relative: false
+  light_rot_camera_relative: false
+  light_vel: (0, 0, 0)
+  light_rot_vel: (0, 0, 0)
+  light_accel: (0, 0, 0)
+  light_rot_accel: (0, 0, 0)
+  light_movement_light_relative: false
+
+# Define Source Light Radii Bounds
+spherelight_hemisphere_radius_min: 1.5
+spherelight_hemisphere_radius_max: 2.5
+
+# Define Camera Radii Bounds
+cam_hemisphere_radius_min: 0.7
+cam_hemisphere_radius_max: 1.4
+auto_hemisphere_radius: true
+
+# Define Room Parameters
+scenario_room_enabled: true
+scenario_class_id: 0
+floor_size: 15
+wall_height: 15
+floor_material: Choice('*/assets/materials/materials.txt')
+wall_material: Choice('*/assets/materials/materials.txt')
+floor_texture_rot: Uniform(0, 360)
+wall_texture_rot: Uniform(0, 360)
+
+# Define Initial Camera Parameters
+camera_coord: (-2, 0, 2)
+camera_rot: (-20, 0, 0)
+focus_distance: 1
+
+# Define number of objects in each scene
+max_obj_in_scene: Range(1, 40)
+randomise_num_of_objs_in_scene: true
+
+# Annotations Configuration
+save_segmentation_data: false # Set True to enable saving Object Amodal RGB Instances
+save_background: false # Set True to save background RGB, Depth, amodal/visible instance segmentations (for foreground/background segmentation use case)
+output_dir: dataset 
+num_scenes: 10
+num_views: 2
+img_width: 640
+img_height: 480
+rgb: true
+depth: true
+instance_seg: true
+groundtruth_visuals: true
+physics_simulate_time: 5
+path_tracing: false
+sky_light_intensity: 0
+horiz_aperture: 2.6327803436685087
+vert_aperture: 1.9573321100745658
+focal_length: 1.88
+```
+
+
 ## Generated dataset
 - SynTable data generation pipeline generates dataset in COCO - Common Objects in Context format.
 
