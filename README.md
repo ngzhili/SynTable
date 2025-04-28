@@ -6,12 +6,12 @@ Zhili Ng*, Haozhe Wang*, Zhengshen Zhang*, Francis Eng Hock Tay,  Marcelo H. Ang
 *equal contributions
 
 [![arXiv](https://img.shields.io/badge/arXiv-2307.07333-b31b1b.svg)](https://arxiv.org/pdf/2307.07333.pdf)
+[![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10565517.svg)](https://doi.org/10.5281/zenodo.10565517)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=zHM8H58Kn3E)
 [[Website]](https://sites.google.com/view/syntable/home)
-[[Dataset]](https://doi.org/10.5281/zenodo.10565517)
-[[Demo Video]](https://youtu.be/zHM8H58Kn3E)
 [[Modified UOAIS-v2]](https://github.com/ngzhili/uoais-v2?tab=readme-ov-file)
 
-[![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10565517.svg)](https://doi.org/10.5281/zenodo.10565517)
+
 
 ![teaser](./readme_images/teaser.png)
 
