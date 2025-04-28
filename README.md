@@ -3,7 +3,8 @@
 This repository contains the official implementation of the paper **"SynTable: A Synthetic Data Generation Pipeline for Unseen Object Amodal Instance Segmentation of Cluttered Tabletop Scenes"**.
 
 Zhili Ng*, Haozhe Wang*, Zhengshen Zhang*, Francis Eng Hock Tay,  Marcelo H. Ang Jr.
-*equal contributions
+
+*Equal contributions
 
 [![arXiv](https://img.shields.io/badge/arXiv-2307.07333-b31b1b.svg)](https://arxiv.org/pdf/2307.07333.pdf)
 [![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10565517.svg)](https://doi.org/10.5281/zenodo.10565517)
