@@ -274,7 +274,7 @@ We have heavily modified the Python SDK source code from NVIDA Isaac Sim's Repli
 ## **Citation**
 If you find our work useful for your research, please consider citing the following BibTeX entry:
 ```
-@misc{ng2025syntable,
+@misc{ng2024syntable,
       title={SynTable: A Synthetic Data Generation Pipeline for Unseen Object Amodal Instance Segmentation of Cluttered Tabletop Scenes}, 
       author={Zhili Ng and Haozhe Wang and Zhengshen Zhang and Francis Tay Eng Hock and Marcelo H. Ang Jr},
       year={2024},
