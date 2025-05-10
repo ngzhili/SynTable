@@ -1,4 +1,5 @@
 # SynTable - A Synthetic Data Generation Pipeline for Cluttered Tabletop Scenes
+### Accepted at the Synthetic Data for Computer Vision (SynData4CV) Workshop @ CVPR 2025
 
 This repository contains the official implementation of the paper **"SynTable: A Synthetic Data Generation Pipeline for Unseen Object Amodal Instance Segmentation of Cluttered Tabletop Scenes"**.
 
@@ -273,12 +274,14 @@ We have heavily modified the Python SDK source code from NVIDA Isaac Sim's Repli
 ## **Citation**
 If you find our work useful for your research, please consider citing the following BibTeX entry:
 ```
-@inproceedings{ng2025syntable,
-title={SynTable: A Synthetic Data Generation Pipeline for Unseen Object Amodal Instance Segmentation of Cluttered Tabletop Scenes},
-author={Zhili Ng and Haozhe Wang and Zhengshen Zhang and Francis E. H. Tay and Marcelo H Ang Jr},
-booktitle={Synthetic Data for Computer Vision Workshop @ CVPR 2025},
-year={2025},
-url={https://openreview.net/forum?id=L7xL80JclK}
+@misc{ng2025syntable,
+      title={SynTable: A Synthetic Data Generation Pipeline for Unseen Object Amodal Instance Segmentation of Cluttered Tabletop Scenes}, 
+      author={Zhili Ng and Haozhe Wang and Zhengshen Zhang and Francis Tay Eng Hock and Marcelo H. Ang Jr},
+      year={2024},
+      eprint={2307.07333},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2307.07333}, 
 }
 ```
 
